@@ -5,8 +5,8 @@ on:
 
 jobs:
   build:
+    name: Update Packages
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
