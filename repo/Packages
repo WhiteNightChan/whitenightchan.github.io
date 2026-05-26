@@ -1,3 +1,41 @@
+Package: com.0xkuj.3dappversionspoofer
+Architecture: iphoneos-arm64
+Name: 3DAppVersionSpoofer
+Version: 2.1.1
+Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
+Author: 0xkuj <0xkujz@gmail.com>
+Section: Tweaks
+Depends: com.opa334.altlist
+Size: 60004
+Maintainer: 0xkuj <0xkujz@gmail.com>
+Md5sum: c8cf61073517a3a29d995fbc241efd1a
+SHA1: d2f9bea0674c0729974024ea89717efa590c1bc6
+SHA256: d69e0dac5d5a5f60c6db3b1c4a991834824d031e3b8d36eb9c5562f9ee15dc3f
+Depiction: https://0xkuj.yourepo.com/pack/3dappversionspoofer
+SileoDepiction: https://0xkuj.yourepo.com/sileo/depiction/3dappversionspoofer
+Filename: ./debs/System/3DAppVersionSpoofer/3dappversionspoofer_2.1.1_iphoneos-arm64.deb
+Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.3dappversionspoofer.png
+Installed-size: 408
+
+Package: com.twickd.john-sklikas.3dbadgeclear
+Version: 1.6.8
+Architecture: iphoneos-arm64
+Maintainer: isklikas, P2KDev <p2kdev@gmail.com>
+Installed-Size: 192
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: com.isklikas.3dbadgeclear
+Replaces: com.isklikas.3dbadgeclear
+Provides: com.isklikas.3dbadgeclear
+Filename: ./debs/System/3DBadgeClear/com.twickd.john-sklikas.3dbadgeclear_1.6.8_iphoneos-arm64.deb
+Size: 17860
+MD5sum: 2e6aab09b1051b0f6d6c7822bf749de6
+SHA1: 66a02309299630f2927a100b6e0e2f4a5d5409c0
+SHA256: 7383016a023397cc32e17760bfc8f7121e97e55cea878fbdde043438cfc1fc91
+Section: Tweaks
+Description: Clear your badges from the Force Touch / 3D Touch Menu! Only appears on apps that have badges.
+Author: isklikas
+Name: 3DBadgeClear
+
 Package: com.p2kdev.alarmtime
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -12,6 +50,25 @@ Section: Tweaks
 Description: Show Time until alarm in the clock App! (Repacked with IAmLazy)
 Author: P2KDev <p2kdev@gmail.com>
 Name: AlarmTime
+
+Package: com.0xkuj.cccounters
+Architecture: iphoneos-arm64
+Name: CCCounters
+Version: 1.0.3
+Description: Adds some counters to your Control Center
+Author: 0xkuj <0xkujz@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker, firmware (>= 13.0)
+Size: 52624
+Maintainer: 0xkuj <0xkujz@gmail.com>
+Md5sum: 4e8824fc5bde656074c48041d7af5646
+SHA1: d95719bd18187e26b836e6e0b3899acaf6713234
+SHA256: 57bf4d7394a930f65b7147f90e81ba60afff8cc952184ce04fd3c29e07028224
+Depiction: https://0xkuj.yourepo.com/pack/cccounters
+SileoDepiction: https://0xkuj.yourepo.com/sileo/depiction/cccounters
+Filename: ./debs/System/CCCounters/cccounters_1.0.3_iphoneos-arm64.deb
+Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.cccounters.png
+Installed-size: 428
 
 Package: com.pantsthief.flexing
 Version: 1.5.1
