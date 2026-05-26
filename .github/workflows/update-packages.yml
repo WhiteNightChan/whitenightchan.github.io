@@ -1,0 +1,41 @@
+name: Update Packages
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Generate Packages
+        run: |
+          > repo/Packages
+
+          find repo/debs -type f -name "*.deb" | sort | while read -r deb; do
+              dpkg-deb -f "$deb" >> repo/Packages
+
+              echo "Filename: ./${deb#repo/}" >> repo/Packages
+              echo "Size: $(stat -c%s "$deb")" >> repo/Packages
+              echo "MD5sum: $(md5sum "$deb" | awk '{print $1}')" >> repo/Packages
+              echo "SHA1: $(sha1sum "$deb" | awk '{print $1}')" >> repo/Packages
+              echo "SHA256: $(sha256sum "$deb" | awk '{print $1}')" >> repo/Packages
+              echo >> repo/Packages
+          done
+
+          gzip -fk repo/Packages
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add repo/Packages repo/Packages.gz
+          git diff --cached --quiet && exit 0
+          git commit -m "Update Packages"
+          git push
