@@ -40,7 +40,7 @@ Package: com.p2kdev.alarmtime
 Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: P2KDev <p2kdev@gmail.com>
-Depends: firmware (>= 14.0),mobilesubstrate
+Depends: firmware (>= 14.0), mobilesubstrate
 Filename: ./debs/System/AlarmTime/com.p2kdev.alarmtime_1.1_repacked_with_IAmLazy_iphoneos-arm64.deb
 Size: 28630
 MD5sum: 548327b96240d2ec66cc636765bdb64c
@@ -108,7 +108,7 @@ Package: com.ioscreatix.sugarcane
 Version: 1.2.4.4
 Architecture: iphoneos-arm64
 Maintainer: iOS Creatix, kasiimh1, baptistecdr, p2kdev
-Depends: mobilesubstrate,firmware (>= 13.0)
+Depends: mobilesubstrate, firmware (>= 13.0)
 Filename: ./debs/System/SugarCane/com.ioscreatix.sugarcane_1.2.4.4_repacked_with_IAmLazy_iphoneos-arm64.deb
 Size: 13594
 MD5sum: 29304ed4993a4c5f89c6f48b6abd59d3
@@ -176,7 +176,7 @@ Architecture: iphoneos-arm64e
 Maintainer: dvntm
 Installed-Size: 56
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Twitter/NoItsNotTimeToUpdate/com.dvntm.twlegacy_0.0.1_iphoneos-arm64e.deb
+Filename: ./debs/Twitter/NoItsNotTimeToUpdate/com.dvntm.twlegacy_0.0.1_iphoneos-arm64e.deb
 Size: 6018
 MD5sum: f1e0336e1348f202fb4ee1199e4cc236
 SHA1: 7fba9d824bbddc91c31d64d78764f86f957ab9fd
