@@ -1,267 +1,294 @@
-Package: com.0xkuj.3dappversionspoofer
-Architecture: iphoneos-arm64
-Name: 3DAppVersionSpoofer
-Version: 2.1.1
-Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
-Author: 0xkuj <0xkujz@gmail.com>
-Section: Tweaks
-Depends: com.opa334.altlist
-Size: 60004
-Maintainer: 0xkuj <0xkujz@gmail.com>
-Md5sum: c8cf61073517a3a29d995fbc241efd1a
-SHA1: d2f9bea0674c0729974024ea89717efa590c1bc6
-SHA256: d69e0dac5d5a5f60c6db3b1c4a991834824d031e3b8d36eb9c5562f9ee15dc3f
-Depiction: https://0xkuj.yourepo.com/pack/3dappversionspoofer
-SileoDepiction: https://0xkuj.yourepo.com/sileo/depiction/3dappversionspoofer
-Filename: ./debs/System/3DAppVersionSpoofer/3dappversionspoofer_2.1.1_iphoneos-arm64.deb
-Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.3dappversionspoofer.png
-Installed-size: 408
-
-Package: com.twickd.john-sklikas.3dbadgeclear
-Version: 1.6.8
-Architecture: iphoneos-arm64
-Maintainer: isklikas, P2KDev <p2kdev@gmail.com>
-Installed-Size: 192
-Depends: firmware (>= 13.0), mobilesubstrate
-Conflicts: com.isklikas.3dbadgeclear
-Replaces: com.isklikas.3dbadgeclear
-Provides: com.isklikas.3dbadgeclear
-Filename: ./debs/System/3DBadgeClear/com.twickd.john-sklikas.3dbadgeclear_1.6.8_iphoneos-arm64.deb
-Size: 17860
-MD5sum: 2e6aab09b1051b0f6d6c7822bf749de6
-SHA1: 66a02309299630f2927a100b6e0e2f4a5d5409c0
-SHA256: 7383016a023397cc32e17760bfc8f7121e97e55cea878fbdde043438cfc1fc91
-Section: Tweaks
-Description: Clear your badges from the Force Touch / 3D Touch Menu! Only appears on apps that have badges.
-Author: isklikas
-Name: 3DBadgeClear
-
-Package: com.p2kdev.alarmtime
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: P2KDev <p2kdev@gmail.com>
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./debs/System/AlarmTime/com.p2kdev.alarmtime_1.1_repacked_with_IAmLazy_iphoneos-arm64.deb
-Size: 28630
-MD5sum: 548327b96240d2ec66cc636765bdb64c
-SHA1: 70a07b821277037d901b809094ae76374f28b590
-SHA256: dd0f43b0b76ed31f32a6098456647691abe728a618ca1a1eb1ab83d0e26710f7
-Section: Tweaks
-Description: Show Time until alarm in the clock App! (Repacked with IAmLazy)
-Author: P2KDev <p2kdev@gmail.com>
-Name: AlarmTime
-
-Package: com.0xkuj.cccounters
-Architecture: iphoneos-arm64
-Name: CCCounters
-Version: 1.0.3
-Description: Adds some counters to your Control Center
-Author: 0xkuj <0xkujz@gmail.com>
-Section: Tweaks
-Depends: mobilesubstrate, org.thebigboss.libcolorpicker, firmware (>= 13.0)
-Size: 52624
-Maintainer: 0xkuj <0xkujz@gmail.com>
-Md5sum: 4e8824fc5bde656074c48041d7af5646
-SHA1: d95719bd18187e26b836e6e0b3899acaf6713234
-SHA256: 57bf4d7394a930f65b7147f90e81ba60afff8cc952184ce04fd3c29e07028224
-Depiction: https://0xkuj.yourepo.com/pack/cccounters
-SileoDepiction: https://0xkuj.yourepo.com/sileo/depiction/cccounters
-Filename: ./debs/System/CCCounters/cccounters_1.0.3_iphoneos-arm64.deb
-Icon: https://cdn-static.yourepo.com/images/debs/com.yourepo.0xkuj.cccounters.png
-Installed-size: 428
-
-Package: com.pantsthief.flexing
-Version: 1.5.1
-Architecture: iphoneos-arm64
-Maintainer: Tanner Bennett <thepantsthief@me.com>, PoomSmart
-Pre-Depends: firmware (>= 8.0)
-Filename: ./debs/System/FLEXing/com.pantsthief.flexing_1.5.1_iphoneos-arm64.deb
-Size: 635962
-MD5sum: 02e7e1ffed80100ba9475d5e6c1ba4d2
-SHA1: 47c29aa129f960a4c264bbb2e52c8cb4405edf08
-SHA256: 07e54ef0140baa0744a94815c5b7bf7ca5091bcb2b9fd06ed76d42e321a027c4
-Section: Tweaks
-Description: Open FLEX anywhere!
-Author: Tanner Bennett <thepantsthief@me.com>, PoomSmart
-Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
-SileoDepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
-Name: FLEXing
-
-Package: com.pantsthief.flexing
-Version: 1.5.2b1
-Architecture: iphoneos-arm64
-Maintainer: Tanner Bennett <thepantsthief@me.com>, PoomSmart
-Pre-Depends: firmware (>= 8.0)
-Filename: ./debs/System/FLEXing/com.pantsthief.flexing_1.5.2b1_iphoneos-arm64.deb
-Size: 637286
-MD5sum: 0afb0b6f7f11714e54c47687d046ba28
-SHA1: f50ad65743c11b2cfd5d9d66b574217b4b7c5870
-SHA256: 705337a1cfaaf470367f50a7f5b5cd9933d2162e8e6733791cd43da087768ca3
-Section: Tweaks
-Description: Open FLEX anywhere!
-Author: Tanner Bennett <thepantsthief@me.com>, PoomSmart
-Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
-SileoDepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
-Name: FLEXing
-
-Package: com.ioscreatix.sugarcane
-Version: 1.2.4.4
-Architecture: iphoneos-arm64
-Maintainer: iOS Creatix, kasiimh1, baptistecdr, p2kdev
-Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/System/SugarCane/com.ioscreatix.sugarcane_1.2.4.4_repacked_with_IAmLazy_iphoneos-arm64.deb
-Size: 13594
-MD5sum: 29304ed4993a4c5f89c6f48b6abd59d3
-SHA1: 3109b49bbda42a78dd30e0cb5ec2d73034735c4d
-SHA256: f696300a3b251c9ac74fd3747e04dcfc90e3cc24ae75a0195e684ff7d921ca0e
-Section: Tweaks
-Description: Get percentages for the sliders in the Control Center 13 - 16 (Repacked with IAmLazy)
-Author: iOS Creatix, kasiimh1, p2kdev
-Name: SugarCane 13/14/15/16
-
 Package: com.p2kdev.safariblocker
-Version: 1.3.1
-Architecture: iphoneos-arm64
+Section: Tweaks
+Installed-Size: 424
 Maintainer: P2KDev <p2kdev@gmail.com>
+Architecture: iphoneos-arm64
+Version: 1.3.1
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Name: SafariBlocker
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.safariblocker
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.safariblocker/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.safariblocker.json
+
+Description: Block New Tabs with Options! (Repacked with IAmLazy)
 Filename: ./debs/Safari/SafariBlocker/com.p2kdev.safariblocker_1.3.1_repacked_with_IAmLazy_iphoneos-arm64.deb
 Size: 69152
 MD5sum: baf286a1a272a98df67474f515db172d
 SHA1: 7947d7111e9b5ad55f53ea430cc3b475048b21cf
 SHA256: 13f6351753c03a8051547f42f9a5a9b67946c974a53ab4c2519f7377a2a8e403
+
+Package: com.0xkuj.3dappversionspoofer
+Name: 3DAppVersionSpoofer
+Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
+Maintainer: 0xkuj
+Author: 0xkuj
 Section: Tweaks
-Description: Block New Tabs with Options! (Repacked with IAmLazy)
+Depends: com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 2.1.1
+Installed-Size: 408
+Filename: ./debs/System/3DAppVersionSpoofer/com.0xkuj.3dappversionspoofer_2.1.1_iphoneos-arm64.deb
+Size: 60004
+MD5sum: c8cf61073517a3a29d995fbc241efd1a
+SHA1: d2f9bea0674c0729974024ea89717efa590c1bc6
+SHA256: d69e0dac5d5a5f60c6db3b1c4a991834824d031e3b8d36eb9c5562f9ee15dc3f
+
+Package: com.twickd.john-sklikas.3dbadgeclear
+Name: 3DBadgeClear
+Depends: firmware (>= 13.0), mobilesubstrate
+Provides: com.isklikas.3dbadgeclear
+Conflicts: com.isklikas.3dbadgeclear
+Replaces: com.isklikas.3dbadgeclear
+Description: Clear your badges from the Force Touch / 3D Touch Menu! Only appears on apps that have badges.
+Maintainer: isklikas
+Author: isklikas
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.6.8
+Installed-Size: 192
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.twickd.john-sklikas.3dbadgeclear
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.twickd.john-sklikas.3dbadgeclear/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.twickd.john-sklikas.3dbadgeclear.json
+Filename: ./debs/System/3DBadgeClear/com.twickd.john-sklikas.3dbadgeclear_1.6.8_iphoneos-arm64.deb
+Size: 17860
+MD5sum: 2e6aab09b1051b0f6d6c7822bf749de6
+SHA1: 66a02309299630f2927a100b6e0e2f4a5d5409c0
+SHA256: 7383016a023397cc32e17760bfc8f7121e97e55cea878fbdde043438cfc1fc91
+
+Package: com.p2kdev.alarmtime
+Section: Tweaks
+Installed-Size: 212
+Maintainer: P2KDev <p2kdev@gmail.com>
+Architecture: iphoneos-arm64
+Version: 1.1
+Depends: firmware (>= 14.0), mobilesubstrate
+Name: AlarmTime
 Author: P2KDev <p2kdev@gmail.com>
-Name: SafariBlocker
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.alarmtime
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.alarmtime/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.alarmtime.json
+
+Description: Show Time until alarm in the clock App! (Repacked with IAmLazy)
+Filename: ./debs/System/AlarmTime/com.p2kdev.alarmtime_1.1_repacked_with_IAmLazy_iphoneos-arm64.deb
+Size: 28630
+MD5sum: 548327b96240d2ec66cc636765bdb64c
+SHA1: 70a07b821277037d901b809094ae76374f28b590
+SHA256: dd0f43b0b76ed31f32a6098456647691abe728a618ca1a1eb1ab83d0e26710f7
+
+Package: com.0xkuj.cccounters
+Name: CCCounters
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker, firmware (>= 13.0)
+Description: Adds some counters to your Control Center
+Maintainer: 0xkuj
+Author: 0xkuj
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Installed-Size: 428
+Filename: ./debs/System/CCCounters/com.0xkuj.cccounters_1.0.3_iphoneos-arm64.deb
+Size: 52624
+MD5sum: 4e8824fc5bde656074c48041d7af5646
+SHA1: d95719bd18187e26b836e6e0b3899acaf6713234
+SHA256: 57bf4d7394a930f65b7147f90e81ba60afff8cc952184ce04fd3c29e07028224
+
+Package: com.pantsthief.flexing
+Name: FLEXing
+Pre-Depends: firmware (>= 8.0)
+Description: Open FLEX anywhere!
+Maintainer: Tanner Bennett <thepantsthief@me.com>
+Author: Tanner Bennett <thepantsthief@me.com>
+Section: Tweaks
+Conflicts: com.dgh0st.flexall, gg.gh0stbyte.flexivator, com.shmoopillic.flexible, applebetas.ios.tweak.devtools.flexgesture, com.creaturecoding.flexer, com.lacertosusrepo.flex4me, me.nepeta.flexxx, com.ipadkid.flexit, com.qiop1379.flexbar, com.leftyfl1p.reflex
+Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
+SileoDepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
+Architecture: iphoneos-arm64
+Version: 1.5.1
+Installed-Size: 3020
+Filename: ./debs/System/FLEXing/com.pantsthief.flexing_1.5.1_iphoneos-arm64.deb
+Size: 635962
+MD5sum: 02e7e1ffed80100ba9475d5e6c1ba4d2
+SHA1: 47c29aa129f960a4c264bbb2e52c8cb4405edf08
+SHA256: 07e54ef0140baa0744a94815c5b7bf7ca5091bcb2b9fd06ed76d42e321a027c4
+
+Package: com.pantsthief.flexing
+Name: FLEXing
+Pre-Depends: firmware (>= 8.0)
+Description: Open FLEX anywhere!
+Maintainer: Tanner Bennett <thepantsthief@me.com>
+Author: Tanner Bennett <thepantsthief@me.com>
+Section: Tweaks
+Conflicts: com.dgh0st.flexall, gg.gh0stbyte.flexivator, com.shmoopillic.flexible, applebetas.ios.tweak.devtools.flexgesture, com.creaturecoding.flexer, com.lacertosusrepo.flex4me, me.nepeta.flexxx, com.ipadkid.flexit, com.qiop1379.flexbar, com.leftyfl1p.reflex
+Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
+SileoDepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
+Architecture: iphoneos-arm64
+Version: 1.5.2b1
+Installed-Size: 3088
+Filename: ./debs/System/FLEXing/com.pantsthief.flexing_1.5.2b1_iphoneos-arm64.deb
+Size: 635466
+MD5sum: 6f6c19087e79b50341544a3cd2b2be31
+SHA1: 2a2793722686beb3640d928ffcdecc9a0a2a481d
+SHA256: 8bffcdbe8afa986e313eea17d9adcc43e1ff00ac50463e2d71a3c005621ae619
+
+Package: com.ioscreatix.sugarcane
+Section: Tweaks
+Installed-Size: 172
+Maintainer: iOS Creatix, kasiimh1, baptistecdr, p2kdev
+Architecture: iphoneos-arm64
+Version: 1.2.4.4
+Depends: mobilesubstrate, firmware (>= 13.0)
+Name: SugarCane 13/14/15/16
+Author: iOS Creatix, kasiimh1, p2kdev
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.ioscreatix.sugarcane
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.ioscreatix.sugarcane/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.ioscreatix.sugarcane.json
+
+Description: Get percentages for the sliders in the Control Center 13 - 16 (Repacked with IAmLazy)
+Filename: ./debs/System/SugarCane/com.ioscreatix.sugarcane_1.2.4.4_repacked_with_IAmLazy_iphoneos-arm64.deb
+Size: 13594
+MD5sum: 29304ed4993a4c5f89c6f48b6abd59d3
+SHA1: 3109b49bbda42a78dd30e0cb5ec2d73034735c4d
+SHA256: f696300a3b251c9ac74fd3747e04dcfc90e3cc24ae75a0195e684ff7d921ca0e
 
 Package: com.dvntm.twlegacy
-Version: 0.0.1
-Architecture: iphoneos-arm
+Name: NoItsNotTimeToUpdate
+Description: An awesome MobileSubstrate tweak!
 Maintainer: dvntm
-Installed-Size: 56
+Author: dvntm
+Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/refs/heads/main/Sileo/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/main/Sileo/depiction.json
+Architecture: iphoneos-arm
+Version: 0.0.1
+Installed-Size: 56
 Filename: ./debs/Twitter/NoItsNotTimeToUpdate/com.dvntm.twlegacy_0.0.1_iphoneos-arm.deb
 Size: 5960
 MD5sum: c9d062e641b696604dee935281529c8f
 SHA1: e065f47641f0a5b4bea9ef1e4692046f14110f37
 SHA256: 8f5343c817acf3bb26cf3f0606c1acd85f6271779a82285212d1213762b924c9
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/refs/heads/main/Sileo/icon.png
-Name: NoItsNotTimeToUpdate
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/main/Sileo/depiction.json
 
 Package: com.dvntm.twlegacy
-Version: 0.0.1
-Architecture: iphoneos-arm64
+Name: NoItsNotTimeToUpdate
+Description: An awesome MobileSubstrate tweak!
 Maintainer: dvntm
-Installed-Size: 56
+Author: dvntm
+Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/refs/heads/main/Sileo/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/main/Sileo/depiction.json
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 56
 Filename: ./debs/Twitter/NoItsNotTimeToUpdate/com.dvntm.twlegacy_0.0.1_iphoneos-arm64.deb
 Size: 6036
 MD5sum: 04beac79eda9095e7d7d6bbf60850dee
 SHA1: 36a92a1b6974505a52008788f2bae34eee5840ef
 SHA256: 10058405e9db27a13a3561a2e1154e33d561aa70d2b10213022cfed266211939
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/refs/heads/main/Sileo/icon.png
-Name: NoItsNotTimeToUpdate
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/main/Sileo/depiction.json
 
 Package: com.dvntm.twlegacy
-Version: 0.0.1
-Architecture: iphoneos-arm64e
+Name: NoItsNotTimeToUpdate
+Description: An awesome MobileSubstrate tweak!
 Maintainer: dvntm
-Installed-Size: 56
+Author: dvntm
+Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/refs/heads/main/Sileo/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/main/Sileo/depiction.json
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 56
 Filename: ./debs/Twitter/NoItsNotTimeToUpdate/com.dvntm.twlegacy_0.0.1_iphoneos-arm64e.deb
 Size: 6018
 MD5sum: f1e0336e1348f202fb4ee1199e4cc236
 SHA1: 7fba9d824bbddc91c31d64d78764f86f957ab9fd
 SHA256: 5aad476a34976623801835367036c63ca26e1467ca61c2bbdc0f80b3c6240b2b
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/refs/heads/main/Sileo/icon.png
-Name: NoItsNotTimeToUpdate
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/main/Sileo/depiction.json
 
 Package: com.p2kdev.twitternoads
-Version: 1.2.6
-Architecture: iphoneos-arm64
-Maintainer: P2KDev <p2kdev@gmail.com>, FoxfortMobile <foxfortmobile@gmail.com>
-Installed-Size: 172
+Name: TwitterNoAds
 Depends: mobilesubstrate
+Description: No Ads in the Twitter App!
+Maintainer: P2KDev <p2kdev@gmail.com>, FoxfortMobile <foxfortmobile@gmail.com>
+Author: P2KDev <p2kdev@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.6
+Installed-Size: 172
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.twitternoads
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.twitternoads/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.twitternoads.json
 Filename: ./debs/Twitter/TwitterNoAds/com.p2kdev.twitternoads_1.2.6_iphoneos-arm64.deb
 Size: 8228
 MD5sum: d76711985fcd880967ba42f6fc29c3d5
 SHA1: 524d7320a541e18c8a210a73b570412530ed761f
 SHA256: 221ed62a492a9afcdc2f75a1cf867261e392c0fe62ff35b346881684008d7562
-Section: Tweaks
-Description: No Ads in the Twitter App!
-Author: P2KDev <p2kdev@gmail.com>
-Name: TwitterNoAds
 
 Package: com.p2kdev.twitternoads
-Version: 1.2.6
-Architecture: iphoneos-arm64e
-Maintainer: P2KDev <p2kdev@gmail.com>, FoxfortMobile <foxfortmobile@gmail.com>
-Installed-Size: 172
+Name: TwitterNoAds
 Depends: mobilesubstrate
+Description: No Ads in the Twitter App!
+Maintainer: P2KDev <p2kdev@gmail.com>, FoxfortMobile <foxfortmobile@gmail.com>
+Author: P2KDev <p2kdev@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.6
+Installed-Size: 172
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.twitternoads
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.twitternoads/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.twitternoads.json
 Filename: ./debs/Twitter/TwitterNoAds/com.p2kdev.twitternoads_1.2.6_iphoneos-arm64e.deb
 Size: 8156
 MD5sum: 43209b32b33fd5ea6511faa10a683c5f
 SHA1: fee471419b7fc81c2f1088e120a95c839a91a090
 SHA256: 0010cc4cc707e5727727756da221471bfb166802637ed8bae9a92a8037d4390c
-Section: Tweaks
-Description: No Ads in the Twitter App!
-Author: P2KDev <p2kdev@gmail.com>
-Name: TwitterNoAds
 
 Package: dev.adrian.gonerino
-Version: 1.3.3q
-Architecture: iphoneos-arm64
-Maintainer: WhiteNightChan
+Name: Gonerino
+Description: Remove videos uploaded by specific channels
+Maintainer: Adrian Castro
+Author: Adrian Castro
+Section: Tweaks
 Depends: ellekit
+Depiction: https://repo.adriancastro.dev/depictions/web/?p=dev.adrian.gonerino
+SileoDepiction: https://repo.adriancastro.dev/depictions/native/dev.adrian.gonerino/depiction.json
+Architecture: iphoneos-arm64
+Version: 1.3.3q
+Installed-Size: 200
 Filename: ./debs/YouTube/Gonerino/dev.adrian.gonerino_1.3.3q_iphoneos-arm64.deb
 Size: 46178
 MD5sum: 4d27a0284b811a05fcf8d3638d9807e3
 SHA1: 1976012e773ba7b8edc75530629b954f93cad769
 SHA256: e5eabb19ed20a9bdb1a259670afe95b5e24bbc86048e702d8f4aec631acb2439
-Section: Tweaks
-Description: Remove videos uploaded by specific channels
-Author: Adrian Castro
-Depiction: https://repo.adriancastro.dev/depictions/native/dev.adrian.gonerino/depiction.json
-Name: Gonerino
 
 Package: com.arichornlover.ytappversionspoofer
-Version: 2.1.0
-Architecture: iphoneos-arm64
-Maintainer: WhiteNightChan
+Name: YTAppVersionSpoofer
+Section: Tweaks
+Description: An YouTube Tweak that lets you spoof the App Version.
+Maintainer: arichornlover
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Recommends: com.arichornlover.lowcontrastmode
+Architecture: iphoneos-arm64
+Version: 2.1.0
+Installed-Size: 88
 Filename: ./debs/YouTube/YTAppVersionSpoofer/com.arichornlover.ytappversionspoofer_2.1.0_iphoneos-arm64.deb
-Size: 19296
+Size: 7604
 MD5sum: 1802ad945dccbcbae2803e5cc547d7b2
 SHA1: ca5cb3353a193d176515889c0240cf8e9c79158e
 SHA256: 90fa955e873ccd49215b9f1ee4769734100f861bcf804776d6ce694378da496a
-Section: Tweaks
-Description: An YouTube Tweak that lets you spoof the App Version.
-Author: arichornlover
-Name: YTAppVersionSpoofer
 
 Package: com.whitenightchan.ytclassicdarktheme
-Version: 0.8.0
-Architecture: iphoneos-arm64
+Name: YTClassicDarkTheme
+Description: Restore YouTube's classic gray dark theme
 Maintainer: WhiteNightChan
+Author: WhiteNightChan
+Section: Tweaks
 Depends: ellekit
+Architecture: iphoneos-arm64
+Version: 0.8.0
+Installed-Size: 120
 Filename: ./debs/YouTube/YTClassicDarkTheme/com.whitenightchan.ytclassicdarktheme_0.8.0_iphoneos-arm64.deb
 Size: 19296
 MD5sum: 0311e1693ba4d54ea2f0d917bfa53e6f
 SHA1: ed877ab56e4cbea292e51c0c81d7df37b2b808a1
 SHA256: 09c9a90bfb9a8f1c8ac1e327b2e5c8f7000002a5e4fcf2705211fd58c2c29dbe
-Section: Tweaks
-Description: Restore YouTube's classic gray dark theme
-Author: WhiteNightChan
-Name: YTClassicDarkTheme
+
