@@ -1,3 +1,38 @@
+Package: Flex3beta
+Name: Flex 3 Beta Dopamine & Palera1n
+Depends:firmware (>= 9.0)
+Recommended: com.rpetrich.rocketbootstrap
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Version: 1:3~Beta56
+Architecture: iphoneos-arm64
+Description: Flex 3 beta 56 for Dopamine & Palera1n by DXcool223
+Maintainer: John Coates
+Author: John Coates
+Section: Tweaks
+Filename: ./debs/CustomApps/Flex 3 Beta/flex3beta_1.3~beta56_iphoneos-arm64.deb
+Size: 16664508
+MD5sum: 3246f3caeced52771719a0d1ea45d67f
+SHA1: d7379ae60dcb5a2769d949b04b8162fd4a0762d0
+SHA256: 12674ffd6663b8dc7a8306dbfeb8d47d8d377329185d4e2b046b57e9d6311513
+
+Package: com.johncoates.Flex
+Name: Flex 3 Beta RootHide Dopamine IOS 15.x
+Depends: mobilesubstrate, firmware (>= 9.0)
+Recommended: com.rpetrich.rocketbootstrap
+Conflicts: me.tomt000.stageduo
+Version: 1:3~Beta56-roothide
+Architecture: iphoneos-arm64e
+Description: Flex 3 for RootHides version of Dopamine by DXcool223
+Maintainer: DXcool223
+Author: John Coates
+Section: Tweaks
+Filename: ./debs/CustomApps/Flex 3 Beta/flex3beta_1.3~beta56_iphoneos-arm64e.deb
+Size: 16662624
+MD5sum: 3867148a5ec7b43341ca35a160ec42f2
+SHA1: 0fa5faa367c3367b4eb374a6d575c760e0ba7948
+SHA256: f5e57227bd76f915bd3e51983ebdb6c03245bb0aff8ee690d97b020f05fd86d3
+
 Package: me.lightmann.iamlazy
 Name: IAmLazy
 Depends: apt, uikittools, firmware (>= 13.0)
@@ -30,6 +65,42 @@ Size: 290752
 MD5sum: a2cad741439f6c117c0cac43eb34decc
 SHA1: 6e728b3eeb6112019e7a25b3874a58e55269103a
 SHA256: 11756958fc92c2fb6415e5e13a147212e29261d5f8a7a7b84c11b967d31db369
+
+Package: com.brend0n.photosnoforyou
+Name: PhotosNoForYou
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: remove 'for you' tab in photos.app and its widget in SpringBoard
+ remove 'for you' tab in photos.app and its widget in SpringBoard
+ 0.0.3: Support iPadOS 14. Support non-english device.
+Maintainer: Brend0n <brendonjkding@126.com>
+Author: Brend0n <brendonjkding@126.com>
+Section: Tweaks
+Version: 0.0.3
+Installed-Size: 200
+Filename: ./debs/Photos/PhotosNoForYou/com.brend0n.photosnoforyou_0.0.3_iphoneos-arm.deb
+Size: 7772
+MD5sum: 1e49e520aa594bfe5e2cf5b7f4cbbd2e
+SHA1: b0de84added780657d81b0ab190f04fb11c9157e
+SHA256: b648d56ace1b346a34e10fb6624da9f67e15d79ca192a21a8bdc1063490842ff
+
+Package: com.brend0n.photosnoforyou
+Name: PhotosNoForYou
+Depends: mobilesubstrate
+Description: remove 'for you' tab in photos.app and its widget in SpringBoard
+ remove 'for you' tab in photos.app and its widget in SpringBoard
+ 0.0.3: Support iPadOS 14. Support non-english device.
+Maintainer: Brend0n <brendonjkding@126.com>
+Author: Brend0n <brendonjkding@126.com>
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 216
+Filename: ./debs/Photos/PhotosNoForYou/com.brend0n.photosnoforyou_0.0.3_iphoneos-arm64.deb
+Size: 8272
+MD5sum: 50ea6cd00b6a492cd0a5a678c223084f
+SHA1: f92d60d75d8daca970803541b94334199ef7a3a4
+SHA256: 37320693f2cd467917a9bf1040e1a95bba2019097fd3a669a91c040d15dd4a00
 
 Package: com.dhinakg.dummyprefs
 Description: Dummy PreferenceBundle to test your PreferenceLoader setup
@@ -207,6 +278,86 @@ MD5sum: baf286a1a272a98df67474f515db172d
 SHA1: 7947d7111e9b5ad55f53ea430cc3b475048b21cf
 SHA256: 13f6351753c03a8051547f42f9a5a9b67946c974a53ab4c2519f7377a2a8e403
 
+Architecture: iphoneos-arm64
+Package: com.anthopak.powercutsactionspack-rootless
+Name: Powercuts Actions Pack (Rootless)
+Version: 1.3.1
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.powercutsactionspack-rootless.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercutsactionspack-rootless.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercutsactionspack-rootless.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootless/icon.png
+Description: Pack of actions for Powercuts
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=14.0), mobilesubstrate, firmware (>= 14.0), com.anthopak.powercuts | com.anthopak.powercuts-rootless
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/Shortcuts/Powercuts Actions Pack/com.anthopak.powercutsactionspack-rootless_1.3.1_iphoneos-arm64.deb
+Size: 97612
+MD5sum: 4f32d07b76359c917f2a3ec0dfbf6de4
+SHA1: dfef798f747821e9d8b62db79a4e73cb7725b75d
+SHA256: a2a38f1e6ee421a1958cbb5164f8c44c448cc19c79647d4c789dc8107ae79a3f
+
+Architecture: iphoneos-arm
+Package: com.anthopak.powercutsactionspack
+Name: Powercuts Actions Pack
+Version: 1.3.1
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.powercutsactionspack.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercutsactionspack.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercutsactionspack.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack/icon.png
+Description: Pack of actions for Powercuts
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=14.0), mobilesubstrate, firmware (>= 14.0), com.anthopak.powercuts
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/Shortcuts/Powercuts Actions Pack/com.anthopak.powercutsactionspack_1.3.1_iphoneos-arm.deb
+Size: 97470
+MD5sum: 59be6b5832e2a4148857227d7b1f54e4
+SHA1: 9b8b698f38ca5049ed524610a32f9e273c9cb843
+SHA256: 44cc4e95339f98ade4c30f6109dfe635cde0fb4ef22b671986e09e97b69089ed
+
+Architecture: iphoneos-arm64
+Package: com.anthopak.powercuts-rootless
+Name: Powercuts (Rootless)
+Version: 1.2.2
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.powercuts-rootless.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercuts-rootless.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercuts-rootless.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercuts-rootless/icon.png
+Description: A library and additions to supercharge Shortcuts!
+Homepage: https://repo.anthopak.dev
+Section: System
+Depends: firmware (>=14.0), mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/Shortcuts/Powercuts/com.anthopak.powercuts-rootless_1.2.2_iphoneos-arm64.deb
+Size: 318886
+MD5sum: 039d8d8387b59e289199bf88897b7a90
+SHA1: 8d9f253b3a2a5195bd08fe7bfa486fba6e6d89a1
+SHA256: c0d1ef28d18c4bf2c130e00fb0aa38d11e765a863df5d59e4f73fedc5650233c
+
+Architecture: iphoneos-arm
+Package: com.anthopak.powercuts
+Name: Powercuts
+Version: 1.2.2
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.powercuts.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercuts.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercuts.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercuts/icon.png
+Description: A library and additions to supercharge Shortcuts!
+Homepage: https://repo.anthopak.dev
+Section: System
+Depends: firmware (>=14.0), mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/Shortcuts/Powercuts/com.anthopak.powercuts_1.2.2_iphoneos-arm.deb
+Size: 333320
+MD5sum: 94c3156bcc7d897fa951a01882674ede
+SHA1: b8625ba72f6a586248c6439a1c12e102ba08776e
+SHA256: 5adf3cac7f8367d1d1e398ccaa8df0f89bcf5ea48448b26edad3d73f21858049
+
 Package: com.0xkuj.3dappversionspoofer
 Name: 3DAppVersionSpoofer
 Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
@@ -217,7 +368,7 @@ Depends: com.opa334.altlist
 Architecture: iphoneos-arm64
 Version: 2.1.1
 Installed-Size: 408
-Filename: ./debs/SpringBoard/3DAppVersionSpoofer_未/com.0xkuj.3dappversionspoofer_2.1.1_iphoneos-arm64.deb
+Filename: ./debs/SpringBoard/3DAppVersionSpoofer/com.0xkuj.3dappversionspoofer_2.1.1_iphoneos-arm64.deb
 Size: 60004
 MD5sum: c8cf61073517a3a29d995fbc241efd1a
 SHA1: d2f9bea0674c0729974024ea89717efa590c1bc6
@@ -245,6 +396,46 @@ MD5sum: 2e6aab09b1051b0f6d6c7822bf749de6
 SHA1: 66a02309299630f2927a100b6e0e2f4a5d5409c0
 SHA256: 7383016a023397cc32e17760bfc8f7121e97e55cea878fbdde043438cfc1fc91
 
+Architecture: iphoneos-arm64
+Package: com.anthopak.addtofolder-rootless
+Name: AddToFolder (Rootless)
+Version: 1.4
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.addtofolder-rootless.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.addtofolder-rootless.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.addtofolder-rootless.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.addtofolder-rootless/icon.png
+Description: Easily move apps to your folders
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=13.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 13.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/SpringBoard/AddToFolder/com.anthopak.addtofolder-rootless_1.4_iphoneos-arm64.deb
+Size: 136444
+MD5sum: 58937bf95c859d98c25408f7233428d2
+SHA1: e05fc7d1985e17ea2ee5643759af45220ccb9c7a
+SHA256: d8f0b0df80ca669538e1a7462b6c66a5b6c6223257a6a0fe005a8d647ef50849
+
+Architecture: iphoneos-arm
+Package: com.anthopak.addtofolder
+Name: AddToFolder
+Version: 1.4
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.addtofolder.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.addtofolder.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.addtofolder.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.addtofolder/icon.png
+Description: Easily move apps to your folders
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=13.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 13.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/SpringBoard/AddToFolder/com.anthopak.addtofolder_1.4_iphoneos-arm.deb
+Size: 141128
+MD5sum: 633054201fc691cca021e73c1adcf1ce
+SHA1: bb499c86a14e7c018e3bfaad6e0401dc152a9246
+SHA256: 9fbbde05ef663562121401bbae15e48df4731bac0ca0b0448354fcfdc0401429
+
 Package: com.p2kdev.alarmtime
 Section: Tweaks
 Installed-Size: 212
@@ -264,6 +455,46 @@ MD5sum: 548327b96240d2ec66cc636765bdb64c
 SHA1: 70a07b821277037d901b809094ae76374f28b590
 SHA256: dd0f43b0b76ed31f32a6098456647691abe728a618ca1a1eb1ab83d0e26710f7
 
+Package: com.fouadraheb.appdata
+Name: AppData
+Description: View & Manage Applications Data from your Home Screen
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:
+Author: Fouad Raheb <support@fouadraheb.com>
+Maintainer: Fouad Raheb <support@fouadraheb.com>
+Depiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata
+SileoDepiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata/sileo
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Architecture: iphoneos-arm
+Version: 1.4.0
+Installed-Size: 776
+Filename: ./debs/SpringBoard/AppData/com.fouadraheb.appdata_1.4.0_iphoneos-arm.deb
+Size: 126546
+MD5sum: 59d4768b73f2f6cbffdc8ed501de2e5d
+SHA1: 9e36fc13dda92c5046ee35c684e9cb05069460a4
+SHA256: 7ebc82339c33b990fd213484ef489321dbd75e91bd7aa9f0e87a97d7b4b852c2
+
+Package: com.fouadraheb.appdata
+Name: AppData
+Description: View & Manage Applications Data from your Home Screen
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:
+Author: Fouad Raheb <support@fouadraheb.com>
+Maintainer: Fouad Raheb <support@fouadraheb.com>
+Depiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata
+SileoDepiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata/sileo
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Architecture: iphoneos-arm64
+Version: 1.4.0
+Installed-Size: 792
+Filename: ./debs/SpringBoard/AppData/com.fouadraheb.appdata_1.4.0_iphoneos-arm64.deb
+Size: 113436
+MD5sum: 81e70e7262e5cdc3347cb5997c3f3d5b
+SHA1: 25735371c67cafb135e363cffef9ffa4aa4c8230
+SHA256: 1a1d348ad7eb11c966767a316b7a271715d1b6762d87622b17742694461b13c1
+
 Package: jp.akusio.backgrounderaction15
 Name: BackgrounderAction15 CCSupport
 Depends: mobilesubstrate, com.opa334.ccsupport
@@ -280,6 +511,23 @@ Size: 9758
 MD5sum: dc22298382fa90b55cada3c17be1505e
 SHA1: f792ae16efe120e57cb3250cc68f7937013943b7
 SHA256: c497c404ffff941c5fe757f634f5c392f88564e6dcd5fc266a1eeea51b3b948d
+
+Package: com.yourepo.i0s-tweak3r-betas.byebyeapplibrary1
+Architecture: iphoneos-arm64
+Name: ByeByeAppLibrary
+Version: 0.0.2-2
+Description: Disables the ability to swipe over and go to the App Library. Also has an option to keep empty folders, and to keep open folder rotations all in one folder.  Some other App Library and HS settings will probably be added to this package as well as I continue testing features on iOS 15+16.Main feature works iOS 14-16.x
+Author: i0s_tweak3r <djvs23@icloud.com>
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.i0stweak3r.byebyeapplibrary
+Replaces: com.i0stweak3r.byebyeapplibrary
+Maintainer: i0st_weak3r <djvs23@gmail.com>
+Filename: ./debs/SpringBoard/ByeByeAppLibrary/com.yourepo.i0s-tweak3r-betas.byebyeapplibrary1_0.0.2-2_iphoneos-arm64.deb
+Size: 71586
+MD5sum: dbf929942f22d047290670a3c3afebb7
+SHA1: 561cf9b3aaecc4686793ec6f90667607146a03f3
+SHA256: e2f029c616372abfeffd85e5c3ad66f3f04795eb6a4db71c9a760becebf4116e
 
 Package: com.ps.cconandoff
 Name: CC On & Off
@@ -354,6 +602,46 @@ MD5sum: 4e8824fc5bde656074c48041d7af5646
 SHA1: d95719bd18187e26b836e6e0b3899acaf6713234
 SHA256: 57bf4d7394a930f65b7147f90e81ba60afff8cc952184ce04fd3c29e07028224
 
+Architecture: iphoneos-arm64
+Package: com.anthopak.easyairplanedisabler-rootless
+Name: EasyAirplaneDisabler (Rootless)
+Version: 1.1.1
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.easyairplanedisabler-rootless.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.easyairplanedisabler-rootless.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.easyairplanedisabler-rootless.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.easyairplanedisabler-rootless/icon.png
+Description: Turn off Airplane mode directly from alert
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, firmware (>= 11.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/SpringBoard/EasyAirplaneDisabler/com.anthopak.easyairplanedisabler-rootless_1.1.1_iphoneos-arm64.deb
+Size: 7872
+MD5sum: 7f1101d3129d3f856634b1ecb3d6045e
+SHA1: 5899e82869211781a5d1bd0d8ce458211b45863d
+SHA256: 12f5c8aeb1001bbc6b2c89525dc012d4f277c1f168cd6256ae0343a5fac15d14
+
+Architecture: iphoneos-arm
+Package: com.anthopak.easyairplanedisabler
+Name: EasyAirplaneDisabler
+Version: 1.1.1
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.easyairplanedisabler.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.easyairplanedisabler.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.easyairplanedisabler.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.easyairplanedisabler/icon.png
+Description: Turn off Airplane mode directly from alert
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, firmware (>= 11.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/SpringBoard/EasyAirplaneDisabler/com.anthopak.easyairplanedisabler_1.1.1_iphoneos-arm.deb
+Size: 7342
+MD5sum: b548b02d94605840718cc25129153f03
+SHA1: 4be7e2344d1dfdda29eefec551d2df657d5f2529
+SHA256: 873a3c57936e76ea021655c1773ae95434020fd8432dceeb5c3844e3ed5769e6
+
 Package: com.pantsthief.flexing
 Name: FLEXing
 Pre-Depends: firmware (>= 8.0)
@@ -426,6 +714,238 @@ MD5sum: 4a30fc9b4d66260be1fc532d40066a0b
 SHA1: 9ce6a80d1bbb87ffb13c1cc56bbc7a80c795e615
 SHA256: 2e9fa59ded0856ca107f58249f1f626fda12e0743fbb4a04d05fcb3aef69f825
 
+Package: com.brend0n.nolowpowermode30secautolock
+Name: NoLowPowerMode30SecAutoLock
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Natively adjust Auto-Lock interval in Low Power Mode.
+Maintainer: Brend0n <brendonjkding@126.com>
+Author: Brend0n <brendonjkding@126.com>
+Section: Tweaks
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.nolowpowermode30secautolock
+SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.nolowpowermode30secautolock/depiction.json
+Version: 0.0.1
+Installed-Size: 200
+Filename: ./debs/SpringBoard/NoLowPowerMode30SecAutoLock/com.brend0n.nolowpowermode30secautolock_0.0.1_iphoneos-arm.deb
+Size: 5158
+MD5sum: e8136a9bfb44e123e09830ee031b8c9c
+SHA1: 220e8bf74d45bfd863db196c290827023e819535
+SHA256: c39aee97ecb7967102a5f710e300a514c6419590aa8b1a7ec7f5c11033b1d4f2
+
+Package: com.brend0n.nolowpowermode30secautolock
+Name: NoLowPowerMode30SecAutoLock
+Depends: mobilesubstrate
+Description: Natively adjust Auto-Lock interval in Low Power Mode.
+Maintainer: Brend0n <brendonjkding@126.com>
+Author: Brend0n <brendonjkding@126.com>
+Section: Tweaks
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.nolowpowermode30secautolock
+SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.nolowpowermode30secautolock/depiction.json
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 216
+Filename: ./debs/SpringBoard/NoLowPowerMode30SecAutoLock/com.brend0n.nolowpowermode30secautolock_0.0.1_iphoneos-arm64.deb
+Size: 5442
+MD5sum: 892d2d8f473afb5d2edc390ae02bd1ae
+SHA1: db9710ef76710e5637b1933ab9af752dfa39de98
+SHA256: c34fa514e0a5b1d4dbea4530a73a488a0b8330271a8d0a2078745f3eef4f6a44
+
+Package: com.brend0n.nolowpowermode30secautolock
+Name: NoLowPowerMode30SecAutoLock
+Depends: mobilesubstrate
+Description: Natively adjust Auto-Lock interval in Low Power Mode.
+Maintainer: Brend0n <brendonjkding@126.com>
+Author: Brend0n <brendonjkding@126.com>
+Section: Tweaks
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.nolowpowermode30secautolock
+SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.nolowpowermode30secautolock/depiction.json
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 216
+Filename: ./debs/SpringBoard/NoLowPowerMode30SecAutoLock/com.brend0n.nolowpowermode30secautolock_0.0.1_iphoneos-arm64e.deb
+Size: 5406
+MD5sum: 0ec744045a6b9e21d936068f8384830f
+SHA1: d8e0de0f1079c221c1d1c910f7f56704847bba94
+SHA256: 0e205709c577a6d00f7132e05195213760f1dddf20a8a16359ffae4b093fc8f0
+
+Architecture: iphoneos-arm64
+Package: com.anthopak.pancake-rootless
+Name: PanCake (Rootless)
+Version: 2.3
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.pancake-rootless.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
+Description: Interactive dismiss gesture on the whole screen in all apps and ability to restore previous page
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/SpringBoard/PanCake/com.anthopak.pancake-rootless_2.3_iphoneos-arm64.deb
+Size: 139378
+MD5sum: 7f4aeb3ffdc84893945a14df6b9c99e9
+SHA1: 3d5ba26615ac29d8b288997cbe9ea79248b2e456
+SHA256: 612855d062452167cce3c39c38161ab2b0339c3ecdb685d2e54a6bd4083bacdd
+
+Architecture: iphoneos-arm
+Package: com.anthopak.pancake
+Name: PanCake
+Version: 2.3
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.pancake.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake/icon.png
+Description: Interactive dismiss gesture on the whole screen in all apps and ability to restore previous page
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/SpringBoard/PanCake/com.anthopak.pancake_2.3_iphoneos-arm.deb
+Size: 141748
+MD5sum: 51acdf64de1a471a0c1667ba057074f7
+SHA1: fb561a4d8c0d7ebd46315c6e5e9ba7fbbb4bb0bf
+SHA256: a794d3307f2b2079d7f1a41089ae62bab49cfe5314c2baf11e34de4708828323
+
+Architecture: iphoneos-arm64
+Package: com.anthopak.quickccdismiss-rootless
+Name: QuickCCDismiss (Rootless)
+Version: 1.0
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.quickccdismiss-rootless.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickccdismiss-rootless.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickccdismiss-rootless.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.quickccdismiss-rootless/icon.png
+Description: Quickly dismiss CC from expanded modules
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, firmware (>= 11.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/SpringBoard/QuickCCDismiss/com.anthopak.quickccdismiss-rootless_1.0_iphoneos-arm64.deb
+Size: 105582
+MD5sum: b936766d1350500caa5b0f11302d1a08
+SHA1: 9fd634e40e3ca77efe37106cb0e634d61c8b8378
+SHA256: efb0a9388bfc59f0e9db58c5e1e09680e98dda816c1aa323f40270a99cdc1bec
+
+Architecture: iphoneos-arm
+Package: com.anthopak.quickccdismiss
+Name: QuickCCDismiss
+Version: 1.0
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.quickccdismiss.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickccdismiss.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickccdismiss.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.quickccdismiss/icon.png
+Description: Quickly dismiss CC from expanded modules
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, firmware (>= 11.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/SpringBoard/QuickCCDismiss/com.anthopak.quickccdismiss_1.0_iphoneos-arm.deb
+Size: 106456
+MD5sum: 3a801d297ed7e177d2166a7340ef5dcf
+SHA1: 2b7f04a20a81f3c4b35ae2dbd2b7af6cc262666f
+SHA256: 9e359bc9db2ba57075129cdab60094485b826b1f2e404147c4cac1cdcb7e4006
+
+Architecture: iphoneos-arm64
+Package: com.anthopak.quickprefs-rootless
+Name: QuickPrefs (Rootless)
+Version: 1.3.3
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.quickprefs-rootless.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickprefs-rootless.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickprefs-rootless.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.quickprefs-rootless/icon.png
+Description: Quickly access settings prefs from 3D Touch Menu
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/SpringBoard/QuickPrefs/com.anthopak.quickprefs-rootless_1.3.3_iphoneos-arm64.deb
+Size: 609604
+MD5sum: 5a1734c4e41c36e1a82c199685b3289a
+SHA1: b1a5ec01b1ee6fb4e0adc854680d797ba1f67163
+SHA256: b3ef6a79fdff9679019dff8fd5fd8ad2ffe1ea4825d9d1b3740ebbfed7bd031c
+
+Architecture: iphoneos-arm
+Package: com.anthopak.quickprefs
+Name: QuickPrefs
+Version: 1.3.3
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.quickprefs.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickprefs.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickprefs.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.quickprefs/icon.png
+Description: Quickly access settings prefs from 3D Touch Menu
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/SpringBoard/QuickPrefs/com.anthopak.quickprefs_1.3.3_iphoneos-arm.deb
+Size: 610550
+MD5sum: abf2e13b8465f7bf9809b1e65c47d70f
+SHA1: ca8b399c8ccf06d3b506e1a789747bdcfc5af511
+SHA256: 424020de0b1dfd01908a7f734ffebd5dafc620ef8de3e9ed61c92da15cdd08a1
+
+Package: com.i0stweak3r.respringalert
+Name: RespringAlert
+Description: A tiny little tweak that keeps track of how many times your device has done a respring each day in the form of an alert after each respring. It displays the day's date and the running total. You'll even know when the device has finished the respring! Tired of respring counts? Theres an option for over 150 random jokes and silly quotes in the alerts.  Supports all rootless jailbreaks devices including arm64e, iOS 14-17. If this tweak makes u laugh or cry, plz donate.
+Maintainer: i0s_tweak3r
+Author: i0s_tweak3r
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.cydiageek.noticemyrespring
+Replaces: com.yourepo.cydiageek.noticemyrespring
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Installed-Size: 556
+Filename: ./debs/SpringBoard/RespringAlert/com.i0stweak3r.respringalert_1.0.5_iphoneos-arm64.deb
+Size: 89090
+MD5sum: 535e60e5e5be856bc6702fa6bedf98eb
+SHA1: fcece93381af0764e4b24f5de58f1d9c8f9fbf43
+SHA256: dbdb51eb22435752d2b7141be089d4d9d64e01e4cb4f5f225187e7f2abd3e1ab
+
+Architecture: iphoneos-arm64
+Package: com.anthopak.springcuts-rootless
+Name: SpringCuts (Rootless)
+Version: 1.4
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.springcuts-rootless.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.springcuts-rootless.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.springcuts-rootless.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.springcuts-rootless/icon.png
+Description: Run Shortcuts from SpringBoard (Support library, Activator actions, CLI command)
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=14.0), mobilesubstrate, firmware (>= 14.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/SpringBoard/SpringCuts/com.anthopak.springcuts-rootless_1.4_iphoneos-arm64.deb
+Size: 62150
+MD5sum: 2e31038a695946765064c3de9d284a08
+SHA1: 4b2667cdcc3f5a73bca0cffdd10fa0d286a433fb
+SHA256: b0705e37c94b09868254fe1f9d2332c97fb894e02fdd311163921a2c43f8d5cf
+
+Architecture: iphoneos-arm
+Package: com.anthopak.springcuts
+Name: SpringCuts
+Version: 1.4
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.springcuts.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.springcuts.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.springcuts.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.springcuts/icon.png
+Description: Run Shortcuts from SpringBoard (Support library, Activator actions, CLI command)
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=14.0), mobilesubstrate, firmware (>= 14.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/SpringBoard/SpringCuts/com.anthopak.springcuts_1.4_iphoneos-arm.deb
+Size: 93670
+MD5sum: ddfaf3c7311dc2ed2882b805cb58a94f
+SHA1: fbf36902fcea1133d6a5b190b592e2cb0c3c0b61
+SHA256: 3bc15ccb4ec3011c569234bb2563dbc24b69651ccb103b5b4dd960b8985136ad
+
 Package: com.ioscreatix.sugarcane
 Section: Tweaks
 Installed-Size: 172
@@ -444,6 +964,61 @@ Size: 13594
 MD5sum: 29304ed4993a4c5f89c6f48b6abd59d3
 SHA1: 3109b49bbda42a78dd30e0cb5ec2d73034735c4d
 SHA256: f696300a3b251c9ac74fd3747e04dcfc90e3cc24ae75a0195e684ff7d921ca0e
+
+Architecture: iphoneos-arm64
+Package: com.anthopak.videoswipes-rootless
+Name: VideoSwipes (Rootless)
+Version: 1.5
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.videoswipes-rootless.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.videoswipes-rootless.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.videoswipes-rootless.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.videoswipes-rootless/icon.png
+Description: Swipe gestures for video players (native and Youtube)
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/SpringBoard/VideoSwipes/com.anthopak.videoswipes-rootless_1.5_iphoneos-arm64.deb
+Size: 493976
+MD5sum: 4c5e11d834cc1b5b3afc4a1fc702db78
+SHA1: 5162d91b5f5657c6c637be867a32acb046abafdc
+SHA256: fe2487e4ffa0c5ca3eee15070d22ea076d097e954a9c11a9d8e7f72dc8afd310
+
+Architecture: iphoneos-arm
+Package: com.anthopak.videoswipes
+Name: VideoSwipes
+Version: 1.5
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.videoswipes.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.videoswipes.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.videoswipes.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.videoswipes/icon.png
+Description: Swipe gestures for video players (native and Youtube)
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: ./debs/SpringBoard/VideoSwipes/com.anthopak.videoswipes_1.5_iphoneos-arm.deb
+Size: 666004
+MD5sum: 6a138d79cc0e62b33b62f011e27f2d6e
+SHA1: 2a0c3e8b78f6e37f4399c63f4c5de6e2132057ab
+SHA256: 5bfbfa3acfbad51ddbf22d27ee42fc32461be9faf317687aa47091eec3e8cd8b
+
+Package: com.yourepo.i0s-tweak3r-betas.yourdismissedty
+Architecture: iphoneos-arm64
+Name: YourDismissedTY
+Version: 0.0.2r
+Description: Adda a cancel button to all UIAlerts that dont have one already, or a cancel action at least.  works on iOS 9-17 ROOTLESS
+Author: i0s_tweak3r <djvs23@icloud.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Maintainer: i0s_tweak3r <djvs23@gmail.com>
+Filename: ./debs/SpringBoard/YourDismissedTY/com.yourepo.i0s-tweak3r-betas.yourdismissedty_0.0.2r_iphoneos-arm64.deb
+Size: 7260
+MD5sum: ff7e5c66ec7a12ade32a553261f25f4a
+SHA1: 8cbd2f85a49c365010e3fe7de93c41ea7b2fcb08
+SHA256: 7602d97a46a0f0b548ff5ce4f0d0be345e023d597f15bcf003cec4d1d87e61fa
 
 Package: com.dvntm.twlegacy
 Name: NoItsNotTimeToUpdate
