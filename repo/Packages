@@ -1,3 +1,20 @@
+Package: me.lightmann.iamlazy
+Name: IAmLazy
+Depends: apt, uikittools, firmware (>= 13.0)
+Conflicts: me.lightmann.iamlazy-cli
+Description: Easily backup and restore your tweaks
+Maintainer: Lightmann
+Author: Lightmann
+Section: Utilities
+Architecture: iphoneos-arm64
+Version: 2.6.3b1
+Installed-Size: 480
+Filename: ./debs/CustomApp/IAmLazy/me.lightmann.iamlazy_2.6.3b1_iphoneos-arm64.deb
+Size: 181358
+MD5sum: ff0f827039a057f2701406297eaa780a
+SHA1: 74483941273ef0e3ea093a7499976ef753606953
+SHA256: d40340b30864986ada5f85352c1eb8dc127e92902ffff5a9787906746164f917
+
 Package: com.p2kdev.safariblocker
 Section: Tweaks
 Installed-Size: 424
