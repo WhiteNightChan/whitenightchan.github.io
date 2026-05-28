@@ -40,11 +40,12 @@ jobs:
           done
 
           gzip -fk repo/Packages
+          bzip2 -fk repo/Packages
 
       - name: Commit
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "${{ secrets.COMMITTER_USER_NAME }}"
+          git config user.email "${{ secrets.COMMITTER_USER_EMAIL }}"
           git add repo/Packages repo/Packages.gz
           git diff --cached --quiet && exit 0
           git commit -m "Update Packages"
