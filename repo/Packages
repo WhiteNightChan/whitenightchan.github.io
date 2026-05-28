@@ -10,10 +10,10 @@ Architecture: iphoneos-arm64
 Version: 2.6.3b1
 Installed-Size: 480
 Filename: ./debs/CustomApp/IAmLazy/me.lightmann.iamlazy_2.6.3b1_iphoneos-arm64.deb
-Size: 181358
-MD5sum: ff0f827039a057f2701406297eaa780a
-SHA1: 74483941273ef0e3ea093a7499976ef753606953
-SHA256: d40340b30864986ada5f85352c1eb8dc127e92902ffff5a9787906746164f917
+Size: 181264
+MD5sum: 690a20228239082b1693f7a2b6df5a87
+SHA1: 38b6298f615a745a3092482ca3b4fd5a306039c7
+SHA256: dd2eb503620c73aba23c16ba991b8a29ed0ea8c6f0869e2d903d408b98eb1964
 
 Package: com.p2kdev.safariblocker
 Section: Tweaks
