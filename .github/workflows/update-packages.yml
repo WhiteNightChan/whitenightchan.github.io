@@ -19,16 +19,17 @@ jobs:
           > repo/Packages
 
           find repo/debs -type f -name "*.deb" | sort | while read -r deb; do
-              description=$(dpkg-deb -f "$deb" Description)
+              control=$(dpkg-deb -f "$deb")
 
               if [[ "$deb" == *"_repacked_with_IAmLazy_"* ]]; then
-                  dpkg-deb -f "$deb" \
-                      | sed '/^Description:/d' \
-                      >> repo/Packages
+                  description=$(echo "$control" | awk -F": " '/^Description:/ {print $2; exit}')
 
+                  control=$(echo "$control" | sed '/^Description:/d')
+
+                  echo "$control" >> repo/Packages
                   echo "Description: $description (Repacked with IAmLazy)" >> repo/Packages
               else
-                  dpkg-deb -f "$deb" >> repo/Packages
+                  echo "$control" >> repo/Packages
               fi
 
               echo "Filename: ./${deb#repo/}" >> repo/Packages
