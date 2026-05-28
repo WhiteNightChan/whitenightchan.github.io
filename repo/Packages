@@ -31,6 +31,163 @@ MD5sum: a2cad741439f6c117c0cac43eb34decc
 SHA1: 6e728b3eeb6112019e7a25b3874a58e55269103a
 SHA256: 11756958fc92c2fb6415e5e13a147212e29261d5f8a7a7b84c11b967d31db369
 
+Package: com.dhinakg.dummyprefs
+Description: Dummy PreferenceBundle to test your PreferenceLoader setup
+Version: 1.0.0
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Author: Dhinak G <dhinak@dhinak.net>
+Architecture: iphoneos-arm
+Name: DummyPrefs
+Depends: preferenceloader
+Installed-Size: 193
+Filename: ./debs/Preferences/DummyPrefs/com.dhinakg.dummyprefs_1.0.0_iphoneos-arm.deb
+Size: 33512
+MD5sum: 9ee483be46ae08270490802539cbd218
+SHA1: a691cb1b1e1d2abb6f67bd7aecd9965987f3f40b
+SHA256: 8abdb6a547d4a6863e7c5bc92a1198f8eb7fd091a6b2671014422bc6724eda21
+
+Package: com.dhinakg.dummyprefs
+Description: Dummy PreferenceBundle to test your PreferenceLoader setup
+Version: 1.0.0
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Author: Dhinak G <dhinak@dhinak.net>
+Architecture: iphoneos-arm64
+Name: DummyPrefs
+Depends: preferenceloader
+Installed-Size: 193
+Filename: ./debs/Preferences/DummyPrefs/com.dhinakg.dummyprefs_1.0.0_iphoneos-arm64.deb
+Size: 33560
+MD5sum: 902b7c960c708dc05fa9eca1cac75bfd
+SHA1: 770575d4b69102e7a101aff493512750d09626af
+SHA256: 516a486e1f8def27e0e9302d23bad412182d37b326a485d1636d76fcb9fa69f1
+
+Package: com.julioverne.goodwifi
+Maintainer: Julio
+Depends: mobilesubstrate, preferenceloader
+Section: Tweaks
+Homepage: https://twitter.com/ijulioverne
+Description: Better WiFi Preferences
+Author: julioverne
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.goodwifi
+Icon: file:///var/jb/Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
+Name: GoodWiFi
+Architecture: iphoneos-arm64
+Version: 0.0~beta6
+Installed-Size: 412
+Filename: ./debs/Preferences/GoodWiFi/com.julioverne.goodwifi_0.0~beta6_iphoneos-arm64.deb
+Size: 40822
+MD5sum: a1001e8b942bd4870f4c5e55096ec28a
+SHA1: 79c9c4197f616a2b885ed496af43a437390d21a0
+SHA256: 6c329bfdb459abe3e7cb2f6dc7ccd6d5fb6607838864cf97193d70e96eed130c
+
+Package: preferenceloader
+Description: load preferences in style
+Version: 2.2.6-1
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Architecture: iphoneos-arm64
+Name: PreferenceLoader
+Depends: mobilesubstrate
+Section: System
+Installed-Size: 435
+Filename: ./debs/Preferences/PreferenceLoader/preferenceloader_2.2.6-1_iphoneos-arm64.deb
+Size: 30180
+MD5sum: f51dc3230ba6c4129f31f98579939639
+SHA1: 4acbbfd6e01656ac563b060471d224a66dfd37c7
+SHA256: 9b12fb84160b1146320a19b5b0ffa76688eb59bfc12de82c14bd114824f6a479
+
+Package: preferenceloader
+Description: load preferences in style
+Version: 2.2.6
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Architecture: iphoneos-arm64
+Name: PreferenceLoader
+Depends: mobilesubstrate
+Section: System
+Installed-Size: 435
+Filename: ./debs/Preferences/PreferenceLoader/preferenceloader_2.2.6_iphoneos-arm64.deb
+Size: 30220
+MD5sum: 02ac9a2036d6fe0a0292ee8dbf7049bc
+SHA1: d6b646d2b1581dd915b3ac7ce52a6bb155c163a5
+SHA256: 001cac1488020e37f4674ea4c2034ca4ea7724017ce4a76f0fc5f72001ba5667
+
+Package: preferenceloader
+Description: load preferences in style
+Version: 2.2.7
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Author: Dhinak G <dhinak@dhinak.net>
+Architecture: iphoneos-arm64
+Name: PreferenceLoader
+Depends: mobilesubstrate
+Section: System
+Installed-Size: 370
+Filename: ./debs/Preferences/PreferenceLoader/preferenceloader_2.2.7_iphoneos-arm64.deb
+Size: 17504
+MD5sum: 239c02b0191590a66fd70571717b736b
+SHA1: 3bfd32ead55227d4302fadb0e00292fbd0492059
+SHA256: f62d865fff12c5c6b9c5a90a2d6cef6e36b34ce4f77911c98bd30b413608c33e
+
+Package: preferenceloader
+Description: load preferences in style
+Version: 2.2.8
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Author: Dhinak G <dhinak@dhinak.net>
+Architecture: iphoneos-arm64
+Name: PreferenceLoader
+Depends: mobilesubstrate
+Section: System
+Installed-Size: 371
+Filename: ./debs/Preferences/PreferenceLoader/preferenceloader_2.2.8_iphoneos-arm64.deb
+Size: 19180
+MD5sum: 11795810cc51f256e38426ea59ca8d2c
+SHA1: 52d0ef5c1c5ad4e1e25d2dce0049823e79ecdae5
+SHA256: a22e3a248ea18a6fae3ea0ae8f55f5f31f246cd63041cf3ed0c756c2046671dd
+
+Package: com.creaturecoding.shuffle
+Name: Shuffle
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Replaces: com.cpdigitaldarkroom.placeholder
+Conflicts: com.cpdigitaldarkroom.placeholder
+Description: Organize your settings
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive <support@creaturecoding.com>
+Section: Tweaks
+Homepage: https://creaturecoding.com/
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+Tag: purpose::extension, compatible_min::ios10
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Architecture: iphoneos-arm64
+Version: 1.6.2
+Installed-Size: 1484
+Filename: ./debs/Preferences/Shuffle/com.creaturecoding.shuffle_1.6.2_iphoneos-arm64.deb
+Size: 253928
+MD5sum: f33bb228db1e0ab18083e59793928d80
+SHA1: 02d21ff03c51fa75df6282501597222526953f04
+SHA256: 281f4bacf22ccdf3afa7059d57231fa5b4794c50803a2b23d11c29d6bb018e5c
+
+Package: com.creaturecoding.libcspreferences
+Name: libCSPreferences
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Description: A Preference Library that doesn't suck!
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive <support@creaturecoding.com>
+Section: System
+Homepage: https://creaturecoding.com/
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
+Tag: compatible_min::iOS9
+Architecture: iphoneos-arm64
+Version: 1.5.8
+Installed-Size: 2332
+Filename: ./debs/Preferences/libCSPreferences/com.creaturecoding.libcspreferences_1.5.8_iphoneos-arm64.deb
+Size: 333134
+MD5sum: bbb549941f13b83b158f0809e953214a
+SHA1: cefacbbd2ad0e7701c0708e919131c401cd50d8a
+SHA256: 1d86c58915f7d3b5943c1bc8b9866c384ab029e843dc3bf3af1b7bad9ee6791d
+
 Package: com.p2kdev.safariblocker
 Section: Tweaks
 Installed-Size: 424
@@ -106,6 +263,23 @@ Size: 28630
 MD5sum: 548327b96240d2ec66cc636765bdb64c
 SHA1: 70a07b821277037d901b809094ae76374f28b590
 SHA256: dd0f43b0b76ed31f32a6098456647691abe728a618ca1a1eb1ab83d0e26710f7
+
+Package: jp.akusio.backgrounderaction15
+Name: BackgrounderAction15 CCSupport
+Depends: mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Description: [iOS15]Add "Toggle Background Mode" action to ControlCenter.
+Depiction: https://akusio.github.io/descriptions/backgrounderaction15/index.html
+Maintainer: @akusio_RR
+Author: @akusio_RR
+Section: Tweaks
+Version: 0.1.0
+Installed-Size: 340
+Filename: ./debs/SpringBoard/BackgrounderAction15 CCSupport/jp.akusio.backgrounderaction15_0.1.0_iphoneos-arm64.deb
+Size: 9758
+MD5sum: dc22298382fa90b55cada3c17be1505e
+SHA1: f792ae16efe120e57cb3250cc68f7937013943b7
+SHA256: c497c404ffff941c5fe757f634f5c392f88564e6dcd5fc266a1eeea51b3b948d
 
 Package: com.ps.cconandoff
 Name: CC On & Off
@@ -217,6 +391,40 @@ Size: 635466
 MD5sum: 6f6c19087e79b50341544a3cd2b2be31
 SHA1: 2a2793722686beb3640d928ffcdecc9a0a2a481d
 SHA256: 8bffcdbe8afa986e313eea17d9adcc43e1ff00ac50463e2d71a3c005621ae619
+
+Package: jp.akusio.milkyway4
+Name: MilkyWay4-rootless
+Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
+Architecture: iphoneos-arm64
+Description: multitasking for iOS15 rootless.
+Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
+Maintainer: @akusio_RR
+Author: @akusio_RR
+Section: Tweaks
+Version: 0.1.0
+Installed-Size: 3480
+Filename: ./debs/SpringBoard/MilkyWay4-rootless/jp.akusio.milkyway4_0.1.0_iphoneos-arm64.deb
+Size: 1306376
+MD5sum: 4b94876dbdc5a7fce98a68a39f19fc3d
+SHA1: dd7ab336d485e9e78e7df464e2cb99ca473e65aa
+SHA256: 35b0f491379afefcb4f2ad26cff3cfd07f751dacd8eab2b93929d2bb7ae1e19b
+
+Package: jp.akusio.milkyway4
+Name: MilkyWay4-rootless
+Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
+Architecture: iphoneos-arm64
+Description: multitasking for iOS15 rootless.
+Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
+Maintainer: @akusio_RR
+Author: @akusio_RR
+Section: Tweaks
+Version: 0.1.1
+Installed-Size: 3464
+Filename: ./debs/SpringBoard/MilkyWay4-rootless/jp.akusio.milkyway4_0.1.1_iphoneos-arm64.deb
+Size: 1313898
+MD5sum: 4a30fc9b4d66260be1fc532d40066a0b
+SHA1: 9ce6a80d1bbb87ffb13c1cc56bbc7a80c795e615
+SHA256: 2e9fa59ded0856ca107f58249f1f626fda12e0743fbb4a04d05fcb3aef69f825
 
 Package: com.ioscreatix.sugarcane
 Section: Tweaks
