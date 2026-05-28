@@ -66,6 +66,90 @@ MD5sum: a2cad741439f6c117c0cac43eb34decc
 SHA1: 6e728b3eeb6112019e7a25b3874a58e55269103a
 SHA256: 11756958fc92c2fb6415e5e13a147212e29261d5f8a7a7b84c11b967d31db369
 
+Package: preferenceloader
+Description: load preferences in style
+Version: 2.2.6-1
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Architecture: iphoneos-arm64
+Name: PreferenceLoader
+Depends: mobilesubstrate
+Section: System
+Installed-Size: 435
+Filename: ./debs/Dependencies/PreferenceLoader/preferenceloader_2.2.6-1_iphoneos-arm64.deb
+Size: 30180
+MD5sum: f51dc3230ba6c4129f31f98579939639
+SHA1: 4acbbfd6e01656ac563b060471d224a66dfd37c7
+SHA256: 9b12fb84160b1146320a19b5b0ffa76688eb59bfc12de82c14bd114824f6a479
+
+Package: preferenceloader
+Description: load preferences in style
+Version: 2.2.6
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Architecture: iphoneos-arm64
+Name: PreferenceLoader
+Depends: mobilesubstrate
+Section: System
+Installed-Size: 435
+Filename: ./debs/Dependencies/PreferenceLoader/preferenceloader_2.2.6_iphoneos-arm64.deb
+Size: 30220
+MD5sum: 02ac9a2036d6fe0a0292ee8dbf7049bc
+SHA1: d6b646d2b1581dd915b3ac7ce52a6bb155c163a5
+SHA256: 001cac1488020e37f4674ea4c2034ca4ea7724017ce4a76f0fc5f72001ba5667
+
+Package: preferenceloader
+Description: load preferences in style
+Version: 2.2.7
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Author: Dhinak G <dhinak@dhinak.net>
+Architecture: iphoneos-arm64
+Name: PreferenceLoader
+Depends: mobilesubstrate
+Section: System
+Installed-Size: 370
+Filename: ./debs/Dependencies/PreferenceLoader/preferenceloader_2.2.7_iphoneos-arm64.deb
+Size: 17504
+MD5sum: 239c02b0191590a66fd70571717b736b
+SHA1: 3bfd32ead55227d4302fadb0e00292fbd0492059
+SHA256: f62d865fff12c5c6b9c5a90a2d6cef6e36b34ce4f77911c98bd30b413608c33e
+
+Package: preferenceloader
+Description: load preferences in style
+Version: 2.2.8
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Author: Dhinak G <dhinak@dhinak.net>
+Architecture: iphoneos-arm64
+Name: PreferenceLoader
+Depends: mobilesubstrate
+Section: System
+Installed-Size: 371
+Filename: ./debs/Dependencies/PreferenceLoader/preferenceloader_2.2.8_iphoneos-arm64.deb
+Size: 19180
+MD5sum: 11795810cc51f256e38426ea59ca8d2c
+SHA1: 52d0ef5c1c5ad4e1e25d2dce0049823e79ecdae5
+SHA256: a22e3a248ea18a6fae3ea0ae8f55f5f31f246cd63041cf3ed0c756c2046671dd
+
+Package: com.creaturecoding.libcspreferences
+Name: libCSPreferences
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Description: A Preference Library that doesn't suck!
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive <support@creaturecoding.com>
+Section: System
+Homepage: https://creaturecoding.com/
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
+Tag: compatible_min::iOS9
+Architecture: iphoneos-arm64
+Version: 1.5.8
+Installed-Size: 2332
+Filename: ./debs/Dependencies/libCSPreferences/com.creaturecoding.libcspreferences_1.5.8_iphoneos-arm64.deb
+Size: 333134
+MD5sum: bbb549941f13b83b158f0809e953214a
+SHA1: cefacbbd2ad0e7701c0708e919131c401cd50d8a
+SHA256: 1d86c58915f7d3b5943c1bc8b9866c384ab029e843dc3bf3af1b7bad9ee6791d
+
 Package: com.brend0n.photosnoforyou
 Name: PhotosNoForYou
 Depends: mobilesubstrate
@@ -151,70 +235,6 @@ MD5sum: a1001e8b942bd4870f4c5e55096ec28a
 SHA1: 79c9c4197f616a2b885ed496af43a437390d21a0
 SHA256: 6c329bfdb459abe3e7cb2f6dc7ccd6d5fb6607838864cf97193d70e96eed130c
 
-Package: preferenceloader
-Description: load preferences in style
-Version: 2.2.6-1
-Maintainer: Dhinak G <dhinak@dhinak.net>
-Author: Dustin Howett <cydia.pl@relay.howett.net>
-Architecture: iphoneos-arm64
-Name: PreferenceLoader
-Depends: mobilesubstrate
-Section: System
-Installed-Size: 435
-Filename: ./debs/Preferences/PreferenceLoader/preferenceloader_2.2.6-1_iphoneos-arm64.deb
-Size: 30180
-MD5sum: f51dc3230ba6c4129f31f98579939639
-SHA1: 4acbbfd6e01656ac563b060471d224a66dfd37c7
-SHA256: 9b12fb84160b1146320a19b5b0ffa76688eb59bfc12de82c14bd114824f6a479
-
-Package: preferenceloader
-Description: load preferences in style
-Version: 2.2.6
-Maintainer: Dhinak G <dhinak@dhinak.net>
-Author: Dustin Howett <cydia.pl@relay.howett.net>
-Architecture: iphoneos-arm64
-Name: PreferenceLoader
-Depends: mobilesubstrate
-Section: System
-Installed-Size: 435
-Filename: ./debs/Preferences/PreferenceLoader/preferenceloader_2.2.6_iphoneos-arm64.deb
-Size: 30220
-MD5sum: 02ac9a2036d6fe0a0292ee8dbf7049bc
-SHA1: d6b646d2b1581dd915b3ac7ce52a6bb155c163a5
-SHA256: 001cac1488020e37f4674ea4c2034ca4ea7724017ce4a76f0fc5f72001ba5667
-
-Package: preferenceloader
-Description: load preferences in style
-Version: 2.2.7
-Maintainer: Dhinak G <dhinak@dhinak.net>
-Author: Dhinak G <dhinak@dhinak.net>
-Architecture: iphoneos-arm64
-Name: PreferenceLoader
-Depends: mobilesubstrate
-Section: System
-Installed-Size: 370
-Filename: ./debs/Preferences/PreferenceLoader/preferenceloader_2.2.7_iphoneos-arm64.deb
-Size: 17504
-MD5sum: 239c02b0191590a66fd70571717b736b
-SHA1: 3bfd32ead55227d4302fadb0e00292fbd0492059
-SHA256: f62d865fff12c5c6b9c5a90a2d6cef6e36b34ce4f77911c98bd30b413608c33e
-
-Package: preferenceloader
-Description: load preferences in style
-Version: 2.2.8
-Maintainer: Dhinak G <dhinak@dhinak.net>
-Author: Dhinak G <dhinak@dhinak.net>
-Architecture: iphoneos-arm64
-Name: PreferenceLoader
-Depends: mobilesubstrate
-Section: System
-Installed-Size: 371
-Filename: ./debs/Preferences/PreferenceLoader/preferenceloader_2.2.8_iphoneos-arm64.deb
-Size: 19180
-MD5sum: 11795810cc51f256e38426ea59ca8d2c
-SHA1: 52d0ef5c1c5ad4e1e25d2dce0049823e79ecdae5
-SHA256: a22e3a248ea18a6fae3ea0ae8f55f5f31f246cd63041cf3ed0c756c2046671dd
-
 Package: com.creaturecoding.shuffle
 Name: Shuffle
 Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
@@ -238,26 +258,6 @@ Size: 253928
 MD5sum: f33bb228db1e0ab18083e59793928d80
 SHA1: 02d21ff03c51fa75df6282501597222526953f04
 SHA256: 281f4bacf22ccdf3afa7059d57231fa5b4794c50803a2b23d11c29d6bb018e5c
-
-Package: com.creaturecoding.libcspreferences
-Name: libCSPreferences
-Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
-Description: A Preference Library that doesn't suck!
-Maintainer: CreatureSurvive <support@creaturecoding.com>
-Author: CreatureSurvive <support@creaturecoding.com>
-Section: System
-Homepage: https://creaturecoding.com/
-Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
-SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
-Tag: compatible_min::iOS9
-Architecture: iphoneos-arm64
-Version: 1.5.8
-Installed-Size: 2332
-Filename: ./debs/Preferences/libCSPreferences/com.creaturecoding.libcspreferences_1.5.8_iphoneos-arm64.deb
-Size: 333134
-MD5sum: bbb549941f13b83b158f0809e953214a
-SHA1: cefacbbd2ad0e7701c0708e919131c401cd50d8a
-SHA256: 1d86c58915f7d3b5943c1bc8b9866c384ab029e843dc3bf3af1b7bad9ee6791d
 
 Package: com.p2kdev.safariblocker
 Section: Tweaks
