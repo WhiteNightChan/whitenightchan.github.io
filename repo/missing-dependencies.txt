@@ -1,13 +1,11 @@
 Depends:firmware
 apt
-com.creaturesurvive.libcscolorpicker
-com.mrgcgamer.libgcuniversal
 com.rpetrich.rocketbootstrap
 coreutils
 findutils
 firmware
 gettext-localizations
-jp.ashikase.techsupport
+jp.ashikase.libpackageinfo
 libkrw0-dopamine
 libroot-dopamine
 lldb

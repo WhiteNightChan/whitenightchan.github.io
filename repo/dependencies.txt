@@ -23,6 +23,7 @@ ellekit
 findutils
 firmware
 gettext-localizations
+jp.ashikase.libpackageinfo
 jp.ashikase.techsupport
 libkrw0-dopamine
 libroot-dopamine

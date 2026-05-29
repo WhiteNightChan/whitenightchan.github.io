@@ -2081,6 +2081,84 @@ MD5sum: 11795810cc51f256e38426ea59ca8d2c
 SHA1: 52d0ef5c1c5ad4e1e25d2dce0049823e79ecdae5
 SHA256: a22e3a248ea18a6fae3ea0ae8f55f5f31f246cd63041cf3ed0c756c2046671dd
 
+Package: jp.ashikase.techsupport
+Name: TechSupport Framework
+Description: Framework to assist in providing feedback to developers.
+Architecture: iphoneos-arm
+Pre-Depends: firmware (>=3.0)
+Depends: jp.ashikase.libpackageinfo
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=techsupportData
+Homepage: http://github.com/ashikase/TechSupport
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Development
+Tag: role::developer
+dev: ashikase
+Version: 1.5.0.1-1
+Installed-Size: 456
+Filename: ./debs/Dependencies/TechSupport Framework/jp.ashikase.techsupport_1.5.0.1-1_iphoneos-arm.deb
+Size: 114992
+MD5sum: 70794fdd2f450d3f1f42f91edb399ea8
+SHA1: a9d60d81d5ea3d9132cdcb20e50cb8620dd32ffb
+SHA256: f24f4c319d717e9a611a2c58eb79d0ff1a760c54eff286cc5abbf67bb51d6634
+
+Package: com.creaturesurvive.libcscolorpicker
+Name: libCSColorPicker
+Pre-Depends: firmware (>= 7.0)
+Architecture: iphoneos-arm
+Description: A minimal color picker library for developers
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive <support@creaturecoding.com>
+Section: System
+Homepage: https://creaturecoding.com/
+Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
+SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
+Tag: purpose::extension, compatible_min::iosiOS7
+Version: 1.0.4
+Installed-Size: 528
+Filename: ./debs/Dependencies/libCSColorPicker/com.creaturesurvive.libcscolorpicker_1.0.4_iphoneos-arm.deb
+Size: 107662
+MD5sum: 41f79c11aaa1b78900b199923d8bcd02
+SHA1: 269e6a4a5db0d842af22efcfc32b57899966f8e5
+SHA256: daa049fc6d20552697c18dc5627313990ee355e46e5250e86ab8ae778dbf4a84
+
+Package: com.creaturesurvive.libcscolorpicker
+Name: libCSColorPicker
+Pre-Depends: firmware (>= 7.0)
+Architecture: iphoneos-arm
+Description: A minimal color picker library for developers
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive <support@creaturecoding.com>
+Section: System
+Homepage: https://creaturecoding.com/
+Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
+SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
+Tag: purpose::extension, compatible_min::iosiOS7
+Version: 1.0.6
+Installed-Size: 960
+Filename: ./debs/Dependencies/libCSColorPicker/com.creaturesurvive.libcscolorpicker_1.0.6_iphoneos-arm.deb
+Size: 149628
+MD5sum: a595a5e7e5e62502b741249c039d6328
+SHA1: 444a9abd9ee260bed98e432b356b9a3b34c8b2b7
+SHA256: a94cf0ad8d13f4d03e390ea244906834b0e93acc4be5f305628ca50d3e9022a2
+
+Package: com.creaturesurvive.libcscolorpicker
+Name: libCSColorPicker
+Architecture: iphoneos-arm
+Depiction: https://creaturesurvive.github.io/repo/cydia/libcscolorpicker/depiction/
+Description: A minimal color picker library for developers
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive <support@creaturecoding.com>
+Section: System
+Version: 1.0
+Installed-Size: 492
+Filename: ./debs/Dependencies/libCSColorPicker/com.creaturesurvive.libcscolorpicker_1.0_iphoneos-arm.deb
+Size: 83790
+MD5sum: 4d900e4d990ca386e3523c6f6d4bb0fa
+SHA1: 95d2f72089fec05145925d9140d784bcb257746b
+SHA256: c2227edc31a6d5cede803ffea8570673755bd1d7b47e3321cb421d69abe452ce
+
 Package: com.creaturecoding.libcspreferences
 Name: libCSPreferences
 Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
@@ -2100,6 +2178,240 @@ Size: 333134
 MD5sum: bbb549941f13b83b158f0809e953214a
 SHA1: cefacbbd2ad0e7701c0708e919131c401cd50d8a
 SHA256: 1d86c58915f7d3b5943c1bc8b9866c384ab029e843dc3bf3af1b7bad9ee6791d
+
+Package: com.mrgcgamer.libgcuniversal
+Name: LibGcUniversal
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Architecture: iphoneos-arm
+Description: An awesome library of some sort!!
+Maintainer: MrGcGamer
+Author: MrGcGamer
+Section: Development
+Tag: role::developer
+Version: 1.5.0
+Installed-Size: 328
+Filename: ./debs/Dependencies/libGcUniversal/com.mrgcgamer.libgcuniversal_1.5.0_iphoneos-arm.deb
+Size: 55446
+MD5sum: ad0cb30cec8e95e1e16445a8cef70a42
+SHA1: 63ac91b4a9c14a059e84eab7c3a5111cf9736271
+SHA256: d4cf75097b296a4c2ff25a514e7bdf2368a524e4f42d55e4c61f81f90960222f
+
+Package: com.mrgcgamer.libgcuniversal
+Name: LibGcUniversal
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Description: An awesome library of some sort!!
+Maintainer: MrGcGamer
+Author: MrGcGamer
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm
+Version: 1.6.0
+Installed-Size: 264
+Filename: ./debs/Dependencies/libGcUniversal/com.mrgcgamer.libgcuniversal_1.6.0_iphoneos-arm.deb
+Size: 46128
+MD5sum: e297839b32286046702c013b55d555fb
+SHA1: 785b14ead85db68e35d33ca44cd1a4cd90714f66
+SHA256: 583d2fb259fbbef33e9ad083ebff93c15a71929ccff5fafc26fdd4dfcc8dcaf4
+
+Package: com.mrgcgamer.libgcuniversal
+Name: LibGcUniversal
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Description: An awesome library of some sort!!
+Maintainer: MrGcGamer
+Author: MrGcGamer
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm64
+Version: 1.6.0
+Installed-Size: 296
+Filename: ./debs/Dependencies/libGcUniversal/com.mrgcgamer.libgcuniversal_1.6.0_iphoneos-arm64.deb
+Size: 41860
+MD5sum: 4ca9ad11da12bc3e5188818702a99f04
+SHA1: 11729e61ce0b0c0d8d7a122f6674be811f891604
+SHA256: c4649df5f7161fc3d01c92a5f89fdefddfbe156d8af12cdf7ebc3cb205c37ab7
+
+Package: com.mrgcgamer.libgcuniversal
+Name: LibGcUniversal
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Description: An awesome library of some sort!!
+Maintainer: MrGcGamer
+Author: MrGcGamer
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm
+Version: 1.6.1
+Installed-Size: 380
+Filename: ./debs/Dependencies/libGcUniversal/com.mrgcgamer.libgcuniversal_1.6.1_iphoneos-arm.deb
+Size: 57978
+MD5sum: 860f9496904baa0b08f5e9d099e176a0
+SHA1: d8fcdad9efb8c4fc5f69f591d791063b12e2ee7a
+SHA256: edfc66970d25f8f41d02724f39bab125f9fa58841d28387405e02eab5984129b
+
+Package: com.mrgcgamer.libgcuniversal
+Name: LibGcUniversal
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Description: An awesome library of some sort!!
+Maintainer: MrGcGamer
+Author: MrGcGamer
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm64
+Version: 1.6.1
+Installed-Size: 296
+Filename: ./debs/Dependencies/libGcUniversal/com.mrgcgamer.libgcuniversal_1.6.1_iphoneos-arm64.deb
+Size: 41618
+MD5sum: 50e1980a993b6485d90415fcd155238a
+SHA1: d25a26735227a2137c30128abe95714ab99511f2
+SHA256: dc3f7cc72eee725593a9f777ef9ddc5fb86f1cc20256d81fde3f271f263b16be
+
+Package: com.mrgcgamer.libgcuniversal
+Name: LibGcUniversal
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Description: An awesome library of some sort!!
+Maintainer: MrGcGamer
+Author: MrGcGamer
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm
+Version: 1.6.2
+Installed-Size: 380
+Filename: ./debs/Dependencies/libGcUniversal/com.mrgcgamer.libgcuniversal_1.6.2_iphoneos-arm.deb
+Size: 58496
+MD5sum: 28880c10a8692906ad37e8cb946a4ade
+SHA1: a7f464ca795eea03049b9ed5192731c50608214c
+SHA256: e377faa5d75e2bd2ac4f316afdcf58b62b43fa8908cbe5663139632d712e9f32
+
+Package: com.mrgcgamer.libgcuniversal
+Name: LibGcUniversal
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Description: An awesome library of some sort!!
+Maintainer: MrGcGamer
+Author: MrGcGamer
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm64
+Version: 1.6.2
+Installed-Size: 296
+Filename: ./debs/Dependencies/libGcUniversal/com.mrgcgamer.libgcuniversal_1.6.2_iphoneos-arm64.deb
+Size: 41892
+MD5sum: 300c2a1e535cf25618f5b732ffda87f3
+SHA1: 6cf4f75f27c22f045a39f7fcabd2bfa4d4cb3750
+SHA256: 4fd3bd4a5e00d435e89189dee57b9a28dae65316c43aa2afbb757b454be2213f
+
+Package: com.mrgcgamer.libgcuniversal
+Name: LibGcUniversal
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Description: An awesome library of some sort!!
+Maintainer: MrGcGamer
+Author: MrGcGamer
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm
+Version: 1.6.3
+Installed-Size: 380
+Filename: ./debs/Dependencies/libGcUniversal/com.mrgcgamer.libgcuniversal_1.6.3_iphoneos-arm.deb
+Size: 59886
+MD5sum: c6aeaeaa5156aa88e237f4604212a34c
+SHA1: ec84e69966f7f22cae3860e6a9772a06a99c91ce
+SHA256: 04fa4f26a7993be75c22621257f18848506e960e7c3f978efb4c62f30fd74ba8
+
+Package: com.mrgcgamer.libgcuniversal
+Name: LibGcUniversal
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Description: An awesome library of some sort!!
+Maintainer: MrGcGamer
+Author: MrGcGamer
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm64
+Version: 1.6.3
+Installed-Size: 296
+Filename: ./debs/Dependencies/libGcUniversal/com.mrgcgamer.libgcuniversal_1.6.3_iphoneos-arm64.deb
+Size: 43064
+MD5sum: 7a1f46199afa193ce85bee283b1a72fa
+SHA1: 2bf28f4d64d7373a7c9070813169a08194f2f5b8
+SHA256: fdeb7b8e7a898f90a3e4871e4608cb0ec619ba7f5e5202b2eb2ef7be2cef6bf7
+
+Package: com.mrgcgamer.libgcuniversal
+Name: LibGcUniversal
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Description: An awesome library of some sort!!
+Maintainer: MrGcGamer
+Author: MrGcGamer
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm
+Version: 1.6.4
+Installed-Size: 380
+Filename: ./debs/Dependencies/libGcUniversal/com.mrgcgamer.libgcuniversal_1.6.4_iphoneos-arm.deb
+Size: 59676
+MD5sum: a2d2a270d748039d4c4e49109921c3fe
+SHA1: 8b03b756f659779bbf04f571c803d9e6085568de
+SHA256: fe567db5f040b45d27661842db25a65be5dfffa627d32eabf4d20adf8c7f81c4
+
+Package: com.mrgcgamer.libgcuniversal
+Name: LibGcUniversal
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Description: An awesome library of some sort!!
+Maintainer: MrGcGamer
+Author: MrGcGamer
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm64
+Version: 1.6.4
+Installed-Size: 296
+Filename: ./debs/Dependencies/libGcUniversal/com.mrgcgamer.libgcuniversal_1.6.4_iphoneos-arm64.deb
+Size: 42992
+MD5sum: e98e7eede3cc05f081c54fbd19d3d429
+SHA1: 23c78ea1225f06de045f7e5e570a84703963e868
+SHA256: ad860c13412ded1618d96a4baaa73d6766bf1b738198f9360d9cccbb1a0ce1ad
+
+Package: com.mrgcgamer.libgcuniversal
+Name: LibGcUniversal
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Description: An awesome library of some sort!!
+Maintainer: MrGcGamer
+Author: MrGcGamer
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm
+Version: 1.7.0
+Installed-Size: 456
+Filename: ./debs/Dependencies/libGcUniversal/com.mrgcgamer.libgcuniversal_1.7.0_iphoneos-arm.deb
+Size: 81300
+MD5sum: 267f0d51d3dec17b9813a1cc727900d1
+SHA1: b22525f04e3b00b83cbbb4356d9fd2bc9302d6f2
+SHA256: 86889cb4c3222ac7be026eba3e08d8521bb932f8fc1d589ef6c5dbdd6d7aeb17
+
+Package: com.mrgcgamer.libgcuniversal
+Name: LibGcUniversal
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Description: An awesome library of some sort!!
+Maintainer: MrGcGamer
+Author: MrGcGamer
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm64
+Version: 1.7.0
+Installed-Size: 380
+Filename: ./debs/Dependencies/libGcUniversal/com.mrgcgamer.libgcuniversal_1.7.0_iphoneos-arm64.deb
+Size: 54510
+MD5sum: 58a32a3d0689abb8e4622dedb3f38ccb
+SHA1: a327a6e11310c7128b82d48b2b195b0f24445b68
+SHA256: a1fdb8d5e5062f26113c90c6514ab16585507df8af0c3db00b55e4f51fafaa16
 
 Package: com.opa334.libsandy
 Name: libSandy
@@ -2420,6 +2732,63 @@ Size: 18154
 MD5sum: f0910991262882d4ffc0b60a5dcc191b
 SHA1: ce71d90d0165ee7325683d4465fb271fc98451c1
 SHA256: 568c98650d8b452d68a1f893ec87f02a4f7082848b1abeec80531c4c9d484065
+
+Package: org.thebigboss.libcolorpicker
+Name: libcolorpicker
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Description: An awesome library of some sort!!
+Maintainer: Bailey Seymour
+Author: Bailey Seymour
+Section: System
+Tag: role::developer
+Architecture: iphoneos-arm
+Version: 1.6.9.2
+Installed-Size: 584
+Filename: ./debs/Dependencies/libcolorpicker/org.thebigboss.libcolorpicker_1.6.9.2_iphoneos-arm.deb
+Size: 134232
+MD5sum: 0e3155427bd57845ecbbce7d80d0edc8
+SHA1: 98b8e9292c771bd57a9124a85dcca1f8effb60a8
+SHA256: d868afb18f91289f0799ee99a2d306d5e0fd0310235278647cb03c72e3c5b105
+
+Package: org.thebigboss.libcolorpicker
+Name: libcolorpicker
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Description: An awesome library of some sort!!
+Maintainer: Bailey Seymour
+Author: Bailey Seymour
+Section: System
+Tag: role::developer
+Architecture: iphoneos-arm64
+Version: 1.6.9.2
+Installed-Size: 304
+Filename: ./debs/Dependencies/libcolorpicker/org.thebigboss.libcolorpicker_1.6.9.2_iphoneos-arm64.deb
+Size: 45764
+MD5sum: ca820ee221df8feffcf17eeb25f93eca
+SHA1: 7af5d4897744c9d68be8c18b4ce0b421ccdcdc85
+SHA256: aefa324cb0580560d51f724ce2e8cfdfc705c7bcf5e75424eee6224aaa8a7265
+
+Package: org.thebigboss.libcolorpicker
+Name: libcolorpicker
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Description: An awesome library of some sort!!
+Maintainer: Bailey Seymour
+Author: Bailey Seymour
+Section: System
+Tag: role::developer
+Architecture: iphoneos-arm64e
+Version: 1.6.9.2
+Installed-Size: 304
+Filename: ./debs/Dependencies/libcolorpicker/org.thebigboss.libcolorpicker_1.6.9.2_iphoneos-arm64e.deb
+Size: 44668
+MD5sum: 4da5fb75174eb83cb82ad59f22f233f9
+SHA1: 89c034d5c187697b5d460d998a1b94e1749ab298
+SHA256: f20085da3ebd4af4b5415891c8991be674f8ba2357e799b6c7e2e26ffaf7f6d0
 
 Package: com.opa334.libundirect
 Name: libundirect
