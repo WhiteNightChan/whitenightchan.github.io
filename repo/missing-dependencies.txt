@@ -1,0 +1,14 @@
+Depends:firmware
+applist
+apt
+com.creaturesurvive.libcscolorpicker
+com.mrgcgamer.libgcuniversal
+com.ps.yougroupsettings
+findutils
+firmware
+libkrw0-dopamine
+libroot-dopamine
+lldb
+uikittools
+weeb.lillie.youtubedislikesreturn
+ws.hbang.common
