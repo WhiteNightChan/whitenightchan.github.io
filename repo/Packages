@@ -156,6 +156,253 @@ MD5sum: 6bf10790aabb8bf265fd84726c967a9b
 SHA1: d0c239d59f2a9d4aa291e9048fc4614c7db59dce
 SHA256: a1e8934fc9cb6eed5a1d39ba4c62fcf4e0125cbb1c085339fa4aa93d645e70fe
 
+Package: ws.hbang.alderis
+Name: Alderis Color Picker
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0)
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Architecture: iphoneos-arm
+Description: Color picker support library for tweaks
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Development
+Depiction: https://repo.chariz.com/package/ws.hbang.alderis/
+Support: https://hashbang.productions/support/
+Tag: role::developer, compatible_min::ios12.0
+dev: hbang
+Version: 1.0.1
+Installed-Size: 2172
+Filename: ./debs/Dependencies/Alderis Color Picker/ws.hbang.alderis_1.0.1_iphoneos-arm.deb
+Size: 492020
+MD5sum: 84dd9a5bd258ef8270f068123b5af8f0
+SHA1: 01739a5e4668277f1fe7d45be4e7139a37d8e4e7
+SHA256: 820ec9c2b1872123d1dc8af35aeecd9dda7132653663e9d2234f75af772c6caf
+
+Package: ws.hbang.alderis
+Name: Alderis Color Picker
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Architecture: iphoneos-arm
+Description: Color picker support library for tweaks
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Development
+Depiction: https://chariz.com/get/alderis
+Icon: https://chariz.com/cdn/icon/alderis/icon@3x.png
+Support: https://hashbang.productions/support/
+Tag: role::developer, compatible_min::ios12.0
+dev: hbang
+Version: 1.1.1
+Installed-Size: 3544
+Filename: ./debs/Dependencies/Alderis Color Picker/ws.hbang.alderis_1.1.1_iphoneos-arm.deb
+Size: 1847466
+MD5sum: e8128cecf870b52d355913c6eb6bf1f6
+SHA1: be06f06df97a4c0f413a73d342edd9b184127d4d
+SHA256: afc371c5690b5fc70dd82251bafbf10421f4aa305c1429d2e539a6a85277b5cb
+
+Package: ws.hbang.alderis
+Name: Alderis Color Picker
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Architecture: iphoneos-arm
+Description: Color picker support library for tweaks
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Development
+Depiction: https://chariz.com/get/alderis
+Icon: https://chariz.com/cdn/icon/alderis/icon@3x.png
+Support: https://hashbang.productions/support/
+Tag: role::developer, compatible_min::ios12.0
+dev: hbang
+Version: 1.1.2
+Installed-Size: 6468
+Filename: ./debs/Dependencies/Alderis Color Picker/ws.hbang.alderis_1.1.2_iphoneos-arm.deb
+Size: 1847474
+MD5sum: a2fb626baa41e71d3092c010b76c9c08
+SHA1: 7824c40921ed21b1a3607bdc3e2dbd74cfda0554
+SHA256: f3726f2d079a7b88fa931eb833c1327c702d707402e672de7bce16ba603d0d9c
+
+Package: ws.hbang.alderis
+Name: Alderis Color Picker
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0)
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Architecture: iphoneos-arm
+Description: Color picker support library for tweaks
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Development
+Depiction: https://chariz.com/get/alderis
+Icon: https://chariz.com/cdn/icon/alderis/icon@3x.png
+Support: https://hashbang.productions/support/
+Tag: role::developer, compatible_min::ios12.0
+dev: hbang
+Version: 1.1
+Installed-Size: 3536
+Filename: ./debs/Dependencies/Alderis Color Picker/ws.hbang.alderis_1.1_iphoneos-arm.deb
+Size: 750014
+MD5sum: 991bfaee55cabcc057b2d9075c05dc53
+SHA1: 1e6800b1d80d1fb4e757470c2c966966a00d1ad0
+SHA256: ef2a7f3ac32d9da03d65d43ad9c104ff298a3ca3ba38d64e469d6cbda03f9c65
+
+Package: ws.hbang.alderis
+Version: 1.2.1
+Architecture: iphoneos-arm
+Section: Development
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2077
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Name: Alderis Color Picker
+Description: Color picker support library for tweaks
+Support: https://hashbang.productions/support/
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Depiction: https://chariz.com/get/alderis
+Tag: role::developer, compatible_min::ios12.0
+Filename: ./debs/Dependencies/Alderis Color Picker/ws.hbang.alderis_1.2.1_iphoneos-arm.deb
+Size: 372182
+MD5sum: ece30acea64db51627682927dc946e4c
+SHA1: 1dcd101fa40bc344d7b7e83532aefc9e1820e086
+SHA256: cae7d430b4ee3bcf1a717b099b87b6b1dae05da2dac2e26d1598c39173cc64cd
+
+Package: ws.hbang.alderis
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Section: Development
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 1173
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Name: Alderis Color Picker
+Description: Color picker support library for tweaks
+Support: https://hashbang.productions/support/
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Depiction: https://chariz.com/get/alderis
+Tag: role::developer, compatible_min::ios12.0
+Filename: ./debs/Dependencies/Alderis Color Picker/ws.hbang.alderis_1.2.1_iphoneos-arm64.deb
+Size: 215606
+MD5sum: e30da9376adbdd8a846c168f0eca2a5b
+SHA1: 8120b1df4743a497416059509dd05d2c71ddb68c
+SHA256: e4913436592798c5dc78a972535d3dd22eb470f61d7d25ab6bf656c81a49853b
+
+Package: ws.hbang.alderis
+Version: 1.2.2
+Architecture: iphoneos-arm
+Section: Development
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2992
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Name: Alderis Color Picker
+Description: Color picker support library for tweaks
+Support: https://hashbang.productions/support/
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Depiction: https://chariz.com/get/alderis
+Tag: role::developer, compatible_min::ios12.0
+Filename: ./debs/Dependencies/Alderis Color Picker/ws.hbang.alderis_1.2.2_iphoneos-arm.deb
+Size: 372520
+MD5sum: c51f2a83f385c3d039b6b0fb49343e30
+SHA1: b86c42cbd2ce95be37e3cc3c59b18e6a39d0aeb2
+SHA256: 600e8962a318aab84288bddf6a8b70fbefde55aef4a06ecaca4de65cfc68ea7a
+
+Package: ws.hbang.alderis
+Name: Alderis Color Picker
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Description: Color picker support library for tweaks
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Development
+Depiction: https://chariz.com/get/alderis
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Support: https://hashbang.productions/support/
+Tag: role::developer, compatible_min::ios12.0
+dev: hbang
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Installed-Size: 2408
+Filename: ./debs/Dependencies/Alderis Color Picker/ws.hbang.alderis_1.2.2_iphoneos-arm64.deb
+Size: 290676
+MD5sum: d64853cc8160ca4046fdd686e00a3a29
+SHA1: 3dca22e3c26f238766a5657dd1ddbd63ffd04751
+SHA256: d1b8af37cba8d691b4498baa13adbd7eeca6c95e63e3dbb4bbd149431395be1c
+
+Package: ws.hbang.alderis
+Version: 1.2.3
+Architecture: iphoneos-arm
+Section: Development
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2992
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Name: Alderis Color Picker
+Description: Color picker support library for tweaks
+Support: https://hashbang.productions/support/
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Depiction: https://chariz.com/get/alderis
+Tag: role::developer, compatible_min::ios12.0
+Filename: ./debs/Dependencies/Alderis Color Picker/ws.hbang.alderis_1.2.3_iphoneos-arm.deb
+Size: 372700
+MD5sum: 2118960f52634cfc6122673d61b29ee1
+SHA1: 6fd1b2cb1530483b23e039599984550c691acccb
+SHA256: 817fca8cdfd01d7632b34acc21853438c2492068c48c37b549a27450a3f7a6e4
+
+Package: ws.hbang.alderis
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Section: Development
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2463
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Name: Alderis Color Picker
+Description: Color picker support library for tweaks
+Support: https://hashbang.productions/support/
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Depiction: https://chariz.com/get/alderis
+Tag: role::developer, compatible_min::ios12.0
+Filename: ./debs/Dependencies/Alderis Color Picker/ws.hbang.alderis_1.2.3_iphoneos-arm64.deb
+Size: 290546
+MD5sum: 3f9e6b11866f656255a80d57ddb7f258
+SHA1: 9f3243b042f64f1a36509be4c198148547148336
+SHA256: cdd1f47c08843bde9b0e34ec07697a29dcdd56f8493fe5503f8085e7c1d5fb76
+
+Package: ws.hbang.alderis
+Name: Alderis Color Picker
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Architecture: iphoneos-arm
+Description: Color picker support library for tweaks
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Development
+Depiction: https://chariz.com/get/alderis
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Support: https://hashbang.productions/support/
+Tag: role::developer, compatible_min::ios12.0
+dev: hbang
+Version: 1.2
+Installed-Size: 2420
+Filename: ./debs/Dependencies/Alderis Color Picker/ws.hbang.alderis_1.2_iphoneos-arm.deb
+Size: 372224
+MD5sum: 91472d7f2db67f56d8890f50c67cd58a
+SHA1: 030a16bf224a725045e29bb5ee0531f5b4390266
+SHA256: 29537e3452c51c5d802cf8616ea78ca46077f1f150792564196c1a9ec88a30cf
+
 Package: com.opa334.altlist
 Name: AltList
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
