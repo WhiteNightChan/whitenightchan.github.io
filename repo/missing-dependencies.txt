@@ -1,9 +1,9 @@
 Depends:firmware
-applist
 apt
 com.creaturesurvive.libcscolorpicker
 com.mrgcgamer.libgcuniversal
 com.ps.yougroupsettings
+com.rpetrich.rocketbootstrap
 findutils
 firmware
 libkrw0-dopamine

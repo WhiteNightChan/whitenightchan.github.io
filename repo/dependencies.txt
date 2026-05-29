@@ -17,6 +17,7 @@ com.ps.ytclassicvideoquality
 com.ps.ytreexplore
 com.ps.ytvideooverlay
 com.ps.ytx
+com.rpetrich.rocketbootstrap
 ellekit
 findutils
 firmware

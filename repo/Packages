@@ -282,6 +282,186 @@ MD5sum: 9dbf6e22cc24b7269ec5de25032394ec
 SHA1: c075580e278bb8fc78ebf8deccc30a3980df9399
 SHA256: e2d878757835338a75b8046099852dabfd69df3d9fd856b7ca4790b821926d64
 
+Package: applist
+Name: AppList
+Architecture: iphoneos-arm
+Description: Allow extensions to read the list of installed apps
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.3~beta1) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Section: System
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+Version: 1.5.10~beta1
+Installed-Size: 600
+Filename: ./debs/Dependencies/AppList/applist_1.5.10~beta1_iphoneos-arm.deb
+Size: 141980
+MD5sum: aaf53181da1925b5c41538130909dcbc
+SHA1: 0904789df6c5cd842be690bf8d499207eb10cd89
+SHA256: dfe2e04c471e44fbe0ff60f959f5b5d8effd0101a661b7e3f012731809f72e8c
+
+Package: applist
+Name: AppList
+Architecture: iphoneos-arm
+Description: Allow extensions to read the list of installed apps
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Section: System
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+Version: 1.5.11
+Installed-Size: 600
+Filename: ./debs/Dependencies/AppList/applist_1.5.11_iphoneos-arm.deb
+Size: 147060
+MD5sum: 37a66dae8deb04ab76ed344fddf548b6
+SHA1: e3675b8d989f0eac5f0f39a2551df0256e1d3d65
+SHA256: dcfb6b23ad14ef62202fba564fb41d97938c01cccf60dadc6d3a72632d737137
+
+Package: applist
+Name: AppList
+Architecture: iphoneos-arm
+Description: Allow extensions to read the list of installed apps
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Section: System
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+Version: 1.5.12
+Installed-Size: 600
+Filename: ./debs/Dependencies/AppList/applist_1.5.12_iphoneos-arm.deb
+Size: 146028
+MD5sum: 21ee404034d729f9f10a68f3826682ad
+SHA1: 3c65bc9d6b598b972baee565aa438de69bc75978
+SHA256: c4760638d7aaa7630e12cb5865eadddd5c715d542ebadd807bf74bf3e57c351c
+
+Package: applist
+Name: AppList
+Architecture: iphoneos-arm
+Description: Allow extensions to read the list of installed apps
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Section: System
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+Version: 1.5.13
+Installed-Size: 600
+Filename: ./debs/Dependencies/AppList/applist_1.5.13_iphoneos-arm.deb
+Size: 145960
+MD5sum: a246635d6757f54e1e460ef675f14a8e
+SHA1: 18eb849b44b0fa568356044245ea20fd0a26f253
+SHA256: c2e8f7fa5fd09a17af03da4d3c5ed68993e72be1e3f3bd2cb160868aa62f2933
+
+Package: applist
+Name: AppList
+Architecture: iphoneos-arm
+Description: Allow extensions to read the list of installed apps
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.6~beta) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Section: System
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+Version: 1.5.14
+Installed-Size: 600
+Filename: ./debs/Dependencies/AppList/applist_1.5.14_iphoneos-arm.deb
+Size: 93138
+MD5sum: cd8cc24cb82a6714a6a1a41424d72e22
+SHA1: d7883ca1eb96611d9856f17c3510872decfce0eb
+SHA256: 81ad24dd58694e8b6b72706b108f75a51d8eb049c856975e9fc86b1976a25b1e
+
+Package: applist
+Name: AppList
+Architecture: iphoneos-arm
+Description: Allow extensions to read the list of installed apps
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Section: System
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+Version: 1.5.15
+Installed-Size: 780
+Filename: ./debs/Dependencies/AppList/applist_1.5.15_iphoneos-arm.deb
+Size: 105398
+MD5sum: 5406fec8b03762a594e526f2a332e4ff
+SHA1: aaf3cf696d0e528615793fac516f0f354c16aaef
+SHA256: 7b11b4ddb1079466c6aaabe5cc0a319999f60f0a22d4907f72ba3f88cbdaf96b
+
+Package: applist
+Name: AppList
+Architecture: iphoneos-arm
+Description: Allow extensions to read the list of installed apps
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Section: System
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+Version: 1.5.15~beta1
+Installed-Size: 780
+Filename: ./debs/Dependencies/AppList/applist_1.5.15~beta1_iphoneos-arm.deb
+Size: 104730
+MD5sum: 2fca5a5135a60e2c4c58ba4cb4575e8b
+SHA1: 812fddf63980694c89ff44346c7a7f18782466c2
+SHA256: 55cb9b74d2201d58f3dcde5765c103d305180222fe61a18baa644d84153fa0aa
+
+Package: applist
+Name: AppList
+Architecture: iphoneos-arm
+Description: Allow extensions to read the list of installed apps
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Section: System
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+Version: 1.5.16
+Installed-Size: 780
+Filename: ./debs/Dependencies/AppList/applist_1.5.16_iphoneos-arm.deb
+Size: 105098
+MD5sum: af1bdc77dd1805c249d416fa96957841
+SHA1: 843d2b873ad29a848c701af51f2e8a524770bc3a
+SHA256: b20901679ecd9a607636dd69d1c42fe074f6a3e8a5c21c20ecef893f1a9a4a7e
+
+Package: applist
+Name: AppList
+Architecture: iphoneos-arm
+Description: Allow extensions to read the list of installed apps
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Section: System
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+Version: 1.5.16~beta1
+Installed-Size: 780
+Filename: ./debs/Dependencies/AppList/applist_1.5.16~beta1_iphoneos-arm.deb
+Size: 105762
+MD5sum: 55a1932ed038b5d53985cfd66a590dfa
+SHA1: 77431fdde32351bf07d2c340ef87c8c83872b210
+SHA256: e0903791e57fa54e97b464df28d02f0a07110f741fc9bc032a69c0d1c9d57a80
+
 Package: com.opa334.ccsupport
 Name: CCSupport
 Depends: mobilesubstrate, firmware (>=11.0)
@@ -5009,6 +5189,168 @@ MD5sum: 76609d8c1170b23129493291a6961dbc
 SHA1: 7c494861697f33090406a38697e976fd7d86820e
 SHA256: 7788c576ac9616f3ca9ce3d3996b4c7f94915461d8eea5847f2552d741bca9a5
 
+Package: com.ginsu.ytmusicultimate
+Name: YTMusicUltimate
+Description: YouTube Music Premium
+Maintainer: dayanch96 & ginsu
+Author: dayanch96 & ginsu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+Architecture: iphoneos-arm
+Version: 2.3.1
+Installed-Size: 19208
+Filename: ./debs/YouTube Music/YTMusicUltimate/com.ginsu.ytmusicultimate_2.3.1_iphoneos-arm.deb
+Size: 7456448
+MD5sum: 9179b61b5ca8cbdee8b34b28b9e40803
+SHA1: 41a28373f68d452658d660a0edba018ffb766ee3
+SHA256: 425ea8e49e11f3d687e4ef47a2b7ccadbb83af30c3df4573f23d4c058bd79e9d
+
+Package: com.ginsu.ytmusicultimate
+Name: YTMusicUltimate
+Description: YouTube Music Premium
+Maintainer: dayanch96 & ginsu
+Author: dayanch96 & ginsu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+Architecture: iphoneos-arm64
+Version: 2.3.1
+Installed-Size: 19208
+Filename: ./debs/YouTube Music/YTMusicUltimate/com.ginsu.ytmusicultimate_2.3.1_iphoneos-arm64.deb
+Size: 7456384
+MD5sum: 050b7db1c4b2d9a33a9a54b9e583034e
+SHA1: 3a3cb2e9bdc3940cff2df461f7f2cd06c938e97d
+SHA256: b95f1299e0efff27f0448c9fe5bdc009acf3bcf61ac02fa8f741c05da0f1b41c
+
+Package: com.ginsu.ytmusicultimate
+Name: YTMusicUltimate
+Description: YouTube Music Premium
+Maintainer: dayanch96 & ginsu
+Author: dayanch96 & ginsu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+Architecture: iphoneos-arm64e
+Version: 2.3.1
+Installed-Size: 19204
+Filename: ./debs/YouTube Music/YTMusicUltimate/com.ginsu.ytmusicultimate_2.3.1_iphoneos-arm64e.deb
+Size: 7455378
+MD5sum: e8b75c25752e3e756630349bc595540a
+SHA1: 37880768f67e673d4c6fd0b569ca9006b4c4ddf1
+SHA256: 4cfeccd10ec61309fa50efa461c927d79f1d701c0c5750a8d5573858ef299ca9
+
+Package: com.ginsu.ytmusicultimate
+Name: YTMusicUltimate
+Description: YouTube Music Premium
+Maintainer: dayanch96 & ginsu
+Author: dayanch96 & ginsu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+Architecture: iphoneos-arm
+Version: 2.4.1
+Installed-Size: 17932
+Filename: ./debs/YouTube Music/YTMusicUltimate/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm.deb
+Size: 6576778
+MD5sum: c1a0a00cfc98361c7b61d312a09193e5
+SHA1: a567aa3d17eb35e562f1599ec27a320b235c3cd0
+SHA256: 692ca452d618d7664d0986ffdd04484a07524a5068eb0e0f21b813a4efa515a3
+
+Package: com.ginsu.ytmusicultimate
+Name: YTMusicUltimate
+Description: YouTube Music Premium
+Maintainer: dayanch96 & ginsu
+Author: dayanch96 & ginsu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+Architecture: iphoneos-arm64
+Version: 2.4.1
+Installed-Size: 17916
+Filename: ./debs/YouTube Music/YTMusicUltimate/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64.deb
+Size: 6566710
+MD5sum: 25acbe5dd2e0d161e88975b369c44725
+SHA1: 9911729edb671e0aeb466c8ba4438e3cfb46e2b5
+SHA256: 8bf33b555569c4998e5de7e104995c3d95a801171d42e2cc3be5815275b71be9
+
+Package: com.ginsu.ytmusicultimate
+Name: YTMusicUltimate
+Description: YouTube Music Premium
+Maintainer: dayanch96 & ginsu
+Author: dayanch96 & ginsu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+Architecture: iphoneos-arm64e
+Version: 2.4.1
+Installed-Size: 17916
+Filename: ./debs/YouTube Music/YTMusicUltimate/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64e.deb
+Size: 6572062
+MD5sum: 1359292410d2fc2a622dd6dfd39b1934
+SHA1: 68d1a86d608218a59484aad9c0c273c5c9bec191
+SHA256: f53220edcf618a500e376a7f8200199ee5e69d6e9cb9cd145bfd9ceafd199c18
+
+Package: com.ginsu.ytmusicultimate
+Name: YTMusicUltimate
+Description: YouTube Music Premium
+Maintainer: dayanch96 & ginsu
+Author: dayanch96 & ginsu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+Architecture: iphoneos-arm
+Version: 2.4
+Installed-Size: 17916
+Filename: ./debs/YouTube Music/YTMusicUltimate/com.ginsu.ytmusicultimate_2.4_iphoneos-arm.deb
+Size: 6573666
+MD5sum: b3673b441d5176840b74b86f19088237
+SHA1: b5a740d12a31e8277fee6a44bc322fbcf3ffbfc7
+SHA256: df1da12b3a217af4c02c3a32edc0313bc2b41cfb0ca7482b145f430bb01327e5
+
+Package: com.ginsu.ytmusicultimate
+Name: YTMusicUltimate
+Description: YouTube Music Premium
+Maintainer: dayanch96 & ginsu
+Author: dayanch96 & ginsu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+Architecture: iphoneos-arm64
+Version: 2.4
+Installed-Size: 17916
+Filename: ./debs/YouTube Music/YTMusicUltimate/com.ginsu.ytmusicultimate_2.4_iphoneos-arm64.deb
+Size: 6576970
+MD5sum: 1c27a77fef1de73f9360c79c528c74ec
+SHA1: d3905173e84befb29b569c74caa487effdf8588b
+SHA256: e7d2e6682ecd73ab8e3b6a0db0bb8dfe3fdd7a0e7d49bea10be9909736cbb923
+
+Package: com.ginsu.ytmusicultimate
+Name: YTMusicUltimate
+Description: YouTube Music Premium
+Maintainer: dayanch96 & ginsu
+Author: dayanch96 & ginsu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+Architecture: iphoneos-arm64e
+Version: 2.4
+Installed-Size: 17916
+Filename: ./debs/YouTube Music/YTMusicUltimate/com.ginsu.ytmusicultimate_2.4_iphoneos-arm64e.deb
+Size: 6563322
+MD5sum: b1d69d3c129197f50e8fe1d86d321459
+SHA1: c69b1348d48fdf2743d40521456f6defd1abc0b3
+SHA256: 6b0b5f70a86326adcd19631f69824e8a65cbba8336bc00a622d32a6b804a6ad8
+
 Package: com.ps.youmusicpip
 Name: YouMusicPiP
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.cabralcole.forceinpicture | com.ps.forceinpicture
@@ -6701,13 +7043,13 @@ Section: Tweaks
 Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
 SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 Architecture: iphoneos-arm
-Version: 5.2b1
+Version: 5.2~b1
 Installed-Size: 16252
-Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2b1_iphoneos-arm.deb
-Size: 6041640
-MD5sum: d577f5a5d764b17e6b374521ed1ab2fa
-SHA1: 3df923553bcfc308c7e9c1e46701075bec804fd0
-SHA256: 06cf88b03076572700b65bdfc41baba785fd12667ceffd696706d9dc24ad7b97
+Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2~b1_iphoneos-arm.deb
+Size: 6041648
+MD5sum: 9d18e7a270a71868f77720201a12dcd5
+SHA1: 8fedf06f2acae2e003aada30517b9365ba9eae1e
+SHA256: 3f33da4ddea32e58f97a7c79d17110e54faac1be923c97d2535fa66a53835684
 
 Package: com.dvntm.ytlite
 Name: YTLite
@@ -6719,13 +7061,13 @@ Section: Tweaks
 Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
 SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 Architecture: iphoneos-arm64
-Version: 5.2b1
+Version: 5.2~b1
 Installed-Size: 16252
-Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2b1_iphoneos-arm64.deb
-Size: 6043932
-MD5sum: 2e80af4f0efe0c5a84c353c4b1a31635
-SHA1: acf2fd740d0e95d5b0123f06670c5c7c0f9b55c4
-SHA256: c02b53ec593541dde7394536378e26caafbdf74ffe15339be8e232e535514ea6
+Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2~b1_iphoneos-arm64.deb
+Size: 6043940
+MD5sum: dea1ec20755f5d28814d478d8f9e47d4
+SHA1: add8eb5644242b4a186d0fd0cb34a3673c2a2dcb
+SHA256: 2f84e6eb52a0000e86538cd15090a2b4a69cc41e4cd73f2c674d5340ee6c1a58
 
 Package: com.dvntm.ytlite
 Name: YTLite
@@ -6737,13 +7079,13 @@ Section: Tweaks
 Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
 SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 Architecture: iphoneos-arm64e
-Version: 5.2b1
+Version: 5.2~b1
 Installed-Size: 16252
-Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2b1_iphoneos-arm64e.deb
-Size: 6046010
-MD5sum: 1743ec109e89bea5ef27951876a6a74a
-SHA1: d9dc19ecf85128ad3434173c38fd72cb2f379114
-SHA256: 5ba5c41ad1cc29aad56b258abb78a177ffba5178ce494306e1be01c997f759e9
+Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2~b1_iphoneos-arm64e.deb
+Size: 6046020
+MD5sum: c085470a326f395ba6323512d53c013e
+SHA1: 6bde5a7225f1793f7850c2d4b8048d046b71fadf
+SHA256: 3928e885ea842eacbff50346be9094658e55c261d5eca9b121c35abacd747aa5
 
 Package: com.dvntm.ytlite
 Name: YTLite
@@ -6755,13 +7097,13 @@ Section: Tweaks
 Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
 SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 Architecture: iphoneos-arm
-Version: 5.2b2
+Version: 5.2~b2
 Installed-Size: 16696
-Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2b2_iphoneos-arm.deb
-Size: 6401046
-MD5sum: a2ef90f6a20480cb9eb7b70b1eee6a10
-SHA1: f040c8128ef9390a66c7191f9fedeeb02815cd28
-SHA256: ee3bf057fd68fcc605e34779239aae5f394c0c65deb45cb9e18e57566658f627
+Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2~b2_iphoneos-arm.deb
+Size: 6401056
+MD5sum: ec67722190824e6cb6e92db948490e0d
+SHA1: 193c59f80d211b138c11a47cfa5d077fd585568f
+SHA256: 20a52de9704f43335cc25cad3a918ca85583ad8119e2e43ffc40e2ee318e72ba
 
 Package: com.dvntm.ytlite
 Name: YTLite
@@ -6773,13 +7115,13 @@ Section: Tweaks
 Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
 SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 Architecture: iphoneos-arm64
-Version: 5.2b2
+Version: 5.2~b2
 Installed-Size: 16696
-Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2b2_iphoneos-arm64.deb
-Size: 6394072
-MD5sum: 139ab7ad80d26be160b8ae726ab5e55e
-SHA1: 480b7e436438442c5e62f679bd2a3a60f09e261f
-SHA256: b387c367e68c3cfe058fc7f2b5dd4d299cdd7c475a17243c43927ad6df6c10dc
+Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2~b2_iphoneos-arm64.deb
+Size: 6394080
+MD5sum: 39aa153899f7354ccca78e4bb751f11d
+SHA1: 75cfd61e62e219bdd1c547f3247c24e8196d3f22
+SHA256: a51005ae6831eede91f5dd2279104f2a40c65068fa87eebc8b00863674615bc7
 
 Package: com.dvntm.ytlite
 Name: YTLite
@@ -6791,13 +7133,13 @@ Section: Tweaks
 Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
 SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 Architecture: iphoneos-arm64e
-Version: 5.2b2
+Version: 5.2~b2
 Installed-Size: 16696
-Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2b2_iphoneos-arm64e.deb
-Size: 6396580
-MD5sum: 4eb12f5da797d5fd8d2bef3b8880dde8
-SHA1: 0e4b9e1fc1de93849df3c1d38a7dd368f7f6f7de
-SHA256: fc8608ce581178b1c82ad8bbac3b373c58bfb0d17c78892e6affc9698ea53643
+Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2~b2_iphoneos-arm64e.deb
+Size: 6396588
+MD5sum: d95659c2e03a0c827dc59c76d484ad74
+SHA1: ac71ad90b2c1e58f9f11ca8382077a5149cb226a
+SHA256: 8a36a951ad439b192fee40dc922c2b6b3ae13a6b1495bc697f64e54f7ff059a1
 
 Package: com.dvntm.ytlite
 Name: YTLite
@@ -6809,13 +7151,13 @@ Section: Tweaks
 Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
 SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 Architecture: iphoneos-arm
-Version: 5.2b3
+Version: 5.2~b3
 Installed-Size: 16696
-Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2b3_iphoneos-arm.deb
-Size: 6398156
-MD5sum: 7e1b2e1bbf749dda8d5d2fd4e3291e85
-SHA1: 63ffd8e54c3e7d80af4f346116e259a41632d327
-SHA256: 3fb75cffe57847cb45bdea0765d7decc0df20bdc2f5d03c7c85fc800bf33807c
+Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2~b3_iphoneos-arm.deb
+Size: 6398164
+MD5sum: 1abf2ce33440ed281dcc782c197acea8
+SHA1: adf4c685d0bf7c74b1d7d87b9736fe1aa0f4efbf
+SHA256: ddcb48eda445c237d91bffea60d5acb8525f9b458cd2450720fb0c84064c316c
 
 Package: com.dvntm.ytlite
 Name: YTLite
@@ -6827,13 +7169,13 @@ Section: Tweaks
 Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
 SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 Architecture: iphoneos-arm64
-Version: 5.2b3
+Version: 5.2~b3
 Installed-Size: 16696
-Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2b3_iphoneos-arm64.deb
-Size: 6402770
-MD5sum: 86a0f003d24b3d9c6e49a0ab21e9d26b
-SHA1: 6f2d05cd8ca505ad3f95514c15de1b3eebd8cb04
-SHA256: 5be90d3eae5e0922f0e3e50b1fa083c3f240e6ad2971d7e20b5a814848b266d2
+Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2~b3_iphoneos-arm64.deb
+Size: 6402780
+MD5sum: 3344c9356b45402dbeb8e60e4a44985b
+SHA1: bdf82449b42e6c2fe9fc0e6d916c5d479bc5c5bd
+SHA256: 537b4fdc2b973ddd9f909c210a52b4ae36a129a2a54e54a83c34e542e37e6feb
 
 Package: com.dvntm.ytlite
 Name: YTLite
@@ -6845,13 +7187,13 @@ Section: Tweaks
 Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
 SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 Architecture: iphoneos-arm64e
-Version: 5.2b3
+Version: 5.2~b3
 Installed-Size: 16696
-Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2b3_iphoneos-arm64e.deb
-Size: 6403020
-MD5sum: c5e8e013d55cda51e6bfeceb7a6491df
-SHA1: 87b728ff62ea7248be14ea499a826365710ca4fe
-SHA256: 6baadbe132b44c41e7b1824e14bad4cb3271eced1454ccb5d9755141bbb3db6b
+Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2~b3_iphoneos-arm64e.deb
+Size: 6403028
+MD5sum: 7d7d7b16579fb2d56d217a93a6ff724c
+SHA1: 787b54411e5489e6adb1c5b1e887f171661ee99b
+SHA256: 47ddf29b9fe24c822155a07a7a10c42c41d49e2b8647d93dc6feac8e3c1b7abb
 
 Package: com.dvntm.ytlite
 Name: YTLite
@@ -6863,13 +7205,13 @@ Section: Tweaks
 Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
 SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 Architecture: iphoneos-arm
-Version: 5.2b4
+Version: 5.2~b4
 Installed-Size: 16732
-Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2b4_iphoneos-arm.deb
-Size: 6417712
-MD5sum: 06bce93b88bbb343084899ff9fbe15a8
-SHA1: 790a197786591659f0f5c35348f18d40394e2ca5
-SHA256: 56130dd4c7a1c9c80acc38c88d12002de3d099ca8de3698f87729331258ed9fa
+Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2~b4_iphoneos-arm.deb
+Size: 6411144
+MD5sum: 1a3eda0f51ee334d59f658014bec8bb2
+SHA1: 771dc57a4ecf39e4c54ebe28ca17455f4ca3b6d2
+SHA256: 35ffa64e1b81bd244dabf04662df8d519b6ca57a026fa15204a3e0767b44cbdb
 
 Package: com.dvntm.ytlite
 Name: YTLite
@@ -6881,13 +7223,13 @@ Section: Tweaks
 Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
 SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 Architecture: iphoneos-arm64
-Version: 5.2b4
+Version: 5.2~b4
 Installed-Size: 16732
-Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2b4_iphoneos-arm64.deb
-Size: 6415866
-MD5sum: 5134e22aec6d8a3b7e09ce69e49b2dbd
-SHA1: de37ad04ae69ec549e3c4eaf197f131c551a48a0
-SHA256: 9ebeace66909cac0bd1749daaf26113c51d0d6704a58d941f859920fc4a47283
+Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2~b4_iphoneos-arm64.deb
+Size: 6414442
+MD5sum: d1e07293865ddda019ad4b68485155b5
+SHA1: a2144c6c1d2552cccc71733fcf2579671401389f
+SHA256: 8c39e259eae81fb24887fde7af404404b9724221e1c04ded20d2817da7dbee39
 
 Package: com.dvntm.ytlite
 Name: YTLite
@@ -6899,13 +7241,13 @@ Section: Tweaks
 Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
 SileoDepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 Architecture: iphoneos-arm64e
-Version: 5.2b4
-Installed-Size: 16732
-Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2b4_iphoneos-arm64e.deb
-Size: 6409684
-MD5sum: 292d6c66e273489633df92c21b6fca3a
-SHA1: c7f22ec57dc212ce4f152a0e8408a26a5a502ec7
-SHA256: 08dbe988cef49bd8d4a0a996b086f2885cadf46d1b5b9bc2372f562d940c7f5c
+Version: 5.2~b4
+Installed-Size: 16716
+Filename: ./debs/YouTube/YTLite/5.x/com.dvntm.ytlite_5.2~b4_iphoneos-arm64e.deb
+Size: 6413578
+MD5sum: feca65bef18749b058d00999ee60539f
+SHA1: 5780a44ee7120bcc981d79e1aab4fdefc823bc02
+SHA256: c5f7b1e6e0e5d73363b2e715c0fab48951816a14659ffc2a3a748e2ed5709819
 
 Package: com.ps.ytnopaidpromo
 Name: YTNoPaidPromo
