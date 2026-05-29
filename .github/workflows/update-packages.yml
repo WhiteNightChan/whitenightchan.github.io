@@ -47,6 +47,7 @@ jobs:
       - name: Generate Dependency List
         run: |
           tmpdir=$(mktemp -d)
+          mkdir -p repo/lists
 
           #
           # dependency provider map生成
