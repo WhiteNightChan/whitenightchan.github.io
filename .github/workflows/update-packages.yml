@@ -100,8 +100,8 @@ jobs:
           > repo/lists/dependencies.txt
 
           grep -E '^(Depends|Pre-Depends):' repo/Packages \
-            | sed 's/^Depends: //g' \
-            | sed 's/^Pre-Depends: //g' \
+            | sed 's/^Depends:[[:space:]]*//g' \
+            | sed 's/^Pre-Depends:[[:space:]]*//g' \
             | tr ',' '\n' \
             | sed 's/([^)]*)//g' \
             | sed 's/|.*//g' \
@@ -150,8 +150,8 @@ jobs:
 
           # 必要依存の収集
           grep -E '^(Depends|Pre-Depends):' repo/Packages \
-            | sed 's/^Depends: //g' \
-            | sed 's/^Pre-Depends: //g' \
+            | sed 's/^Depends:[[:space:]]*//g' \
+            | sed 's/^Pre-Depends:[[:space:]]*//g' \
             | tr ',' '\n' \
             | sed 's/([^)]*)//g' \
             | sed 's/|.*//g' \
