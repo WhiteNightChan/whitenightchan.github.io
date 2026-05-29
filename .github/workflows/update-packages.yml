@@ -96,7 +96,7 @@ jobs:
 
           # dependency一覧生成
 
-          > repo/dependencies.txt
+          > repo/lists/dependencies.txt
 
           grep -E '^(Depends|Pre-Depends):' repo/Packages \
             | sed 's/^Depends: //g' \
@@ -116,16 +116,16 @@ jobs:
                       found=1
 
                       if [[ "$type" == "provides" ]]; then
-                          echo "$dep provided by $provider" >> repo/dependencies.txt
+                          echo "$dep provided by $provider" >> repo/lists/dependencies.txt
                       elif [[ "$type" == "replaces" ]]; then
-                          echo "$dep replaced by $provider" >> repo/dependencies.txt
+                          echo "$dep replaced by $provider" >> repo/lists/dependencies.txt
                       fi
                   done < <(
                       awk -F'|' -v dep="$dep" '$1 == dep && $3 != "package" {print $2 "|" $3}' "$tmpdir/providers.map"
                   )
 
                   if [[ "$found" == "0" ]]; then
-                      echo "$dep" >> repo/lists/dependencies_list.txt
+                      echo "$dep" >> repo/lists/dependencies.txt
                   fi
               done
 
@@ -164,7 +164,7 @@ jobs:
           comm -23 \
             "$tmpdir/required.txt" \
             "$tmpdir/provided.txt" \
-            > repo/lists/missing-dependencies_list.txt
+            > repo/lists/missing-dependencies.txt
 
           rm -rf "$tmpdir"
 
@@ -172,7 +172,7 @@ jobs:
         run: |
           git config user.name "${{ secrets.COMMITTER_USER_NAME }}"
           git config user.email "${{ secrets.COMMITTER_USER_EMAIL }}"
-          git add repo/Packages repo/Packages.gz repo/Packages.bz2 repo/lists/dependencies_list.txt repo/lists/missing-dependencies_list.txt
+          git add repo/Packages repo/Packages.gz repo/Packages.bz2 repo/lists/dependencies.txt repo/lists/missing-dependencies.txt
           git diff --cached --quiet && exit 0
           git commit -m "Update Packages"
           git push
