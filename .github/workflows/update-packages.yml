@@ -59,6 +59,54 @@ jobs:
           | sort -u \
           > repo/dependencies.txt
 
+      - name: Generate Missing Dependency List
+        run: |
+          tmpdir=$(mktemp -d)
+
+          #
+          # repo内で“満たせる名前”収集
+          #
+
+          grep -E '^(Package|Provides|Replaces):' repo/Packages \
+            | sed 's/^Package: //g' \
+            | sed 's/^Provides: //g' \
+            | sed 's/^Replaces: //g' \
+            | tr ',' '\n' \
+            | sed 's/([^)]*)//g' \
+            | sed 's/|/\n/g' \
+            | sed 's/^[[:space:]]*//g' \
+            | sed 's/[[:space:]]*$//g' \
+            | grep -v '^$' \
+            | sort -u \
+            > "$tmpdir/provided.txt"
+
+          #
+          # 必要依存収集
+          #
+
+          grep -E '^(Depends|Pre-Depends):' repo/Packages \
+            | sed 's/^Depends: //g' \
+            | sed 's/^Pre-Depends: //g' \
+            | tr ',' '\n' \
+            | sed 's/([^)]*)//g' \
+            | sed 's/|.*//g' \
+            | sed 's/^[[:space:]]*//g' \
+            | sed 's/[[:space:]]*$//g' \
+            | grep -v '^$' \
+            | sort -u \
+            > "$tmpdir/required.txt"
+
+          #
+          # repo外依存抽出
+          #
+
+          comm -23 \
+            "$tmpdir/required.txt" \
+            "$tmpdir/provided.txt" \
+            > repo/missing-dependencies.txt
+
+          rm -rf "$tmpdir"
+          
       - name: Commit
         run: |
           git config user.name "${{ secrets.COMMITTER_USER_NAME }}"
