@@ -42,13 +42,13 @@ Maintainer: Lightmann
 Author: Lightmann
 Section: Utilities
 Architecture: iphoneos-arm64
-Version: 2.6.3b1
+Version: 2.6.3~b1
 Installed-Size: 480
-Filename: ./debs/CustomApps/IAmLazy/me.lightmann.iamlazy_2.6.3b1_iphoneos-arm64.deb
-Size: 181264
-MD5sum: 690a20228239082b1693f7a2b6df5a87
-SHA1: 38b6298f615a745a3092482ca3b4fd5a306039c7
-SHA256: dd2eb503620c73aba23c16ba991b8a29ed0ea8c6f0869e2d903d408b98eb1964
+Filename: ./debs/CustomApps/IAmLazy/me.lightmann.iamlazy_2.6.3~b1_iphoneos-arm64.deb
+Size: 181276
+MD5sum: da2f0256e7f72a9562c2cf2159d4f414
+SHA1: 0866915a36389ba6ad0fd5a0203842f003addc0c
+SHA256: 6c7c86cb278d2e73ebe3ee99f7c2f8505349d3fd9e8cec1625da67ac0efc82d5
 
 Package: ws.hbang.newterm3
 Version: 3.0~beta1-1
@@ -5295,13 +5295,13 @@ Conflicts: com.dgh0st.flexall, gg.gh0stbyte.flexivator, com.shmoopillic.flexible
 Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
 SileoDepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
 Architecture: iphoneos-arm64
-Version: 1.5.2b1
+Version: 1.5.2~b1
 Installed-Size: 3088
-Filename: ./debs/SpringBoard/FLEXing/com.pantsthief.flexing_1.5.2b1_iphoneos-arm64.deb
-Size: 635466
-MD5sum: 6f6c19087e79b50341544a3cd2b2be31
-SHA1: 2a2793722686beb3640d928ffcdecc9a0a2a481d
-SHA256: 8bffcdbe8afa986e313eea17d9adcc43e1ff00ac50463e2d71a3c005621ae619
+Filename: ./debs/SpringBoard/FLEXing/com.pantsthief.flexing_1.5.2~b1_iphoneos-arm64.deb
+Size: 637476
+MD5sum: 3146e5402e9c66121d48f0674e2c1393
+SHA1: 672233663c04adcbf15f0eb7e91171834f18d50c
+SHA256: fd6e91466e2089435e0e0f5485c58b828ca5ee8ddb48c414fb57da49e8f2d6c2
 
 Author: ichitaso <willfeeltips+hks@gmail.com>
 Maintainer: ichitaso
