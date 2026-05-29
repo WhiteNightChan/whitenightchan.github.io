@@ -1,12 +1,6 @@
 name: Deploy Pages
 
 on:
-  push:
-    paths:
-      - 'repo/Packages'
-      - 'repo/Packages.gz'
-      - 'repo/Packages.bz2'
-
   workflow_dispatch:
 
 jobs:

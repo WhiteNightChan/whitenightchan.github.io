@@ -45,28 +45,86 @@ jobs:
 
       - name: Generate Dependency List
         run: |
-          {
-              grep -E '^(Depends|Pre-Depends):' repo/Packages || true
-          } \
-          | sed 's/^Depends: //g' \
-          | sed 's/^Pre-Depends: //g' \
-          | tr ',' '\n' \
-          | sed 's/([^)]*)//g' \
-          | sed 's/|.*//g' \
-          | sed 's/^[[:space:]]*//g' \
-          | sed 's/[[:space:]]*$//g' \
-          | grep -v '^$' \
-          | sort -u \
+          tmpdir=$(mktemp -d)
+
+          #
+          # dependency provider map生成
+          #
+          # 形式:
+          # oldpkg|newpkg
+          #
+
+          > "$tmpdir/providers.map"
+
+          current_package=""
+
+          while IFS= read -r line; do
+              if [[ "$line" =~ ^Package:\ (.*) ]]; then
+                  current_package="${BASH_REMATCH[1]}"
+
+                  echo "${current_package}|${current_package}" \
+                    >> "$tmpdir/providers.map"
+
+              elif [[ "$line" =~ ^Provides:\ (.*) ]]; then
+                  echo "${BASH_REMATCH[1]}" \
+                    | tr ',' '\n' \
+                    | sed 's/([^)]*)//g' \
+                    | sed 's/^[[:space:]]*//g' \
+                    | sed 's/[[:space:]]*$//g' \
+                    | while read -r provide; do
+                          [[ -n "$provide" ]] && \
+                          echo "${provide}|${current_package}" \
+                            >> "$tmpdir/providers.map"
+                      done
+
+              elif [[ "$line" =~ ^Replaces:\ (.*) ]]; then
+                  echo "${BASH_REMATCH[1]}" \
+                    | tr ',' '\n' \
+                    | sed 's/([^)]*)//g' \
+                    | sed 's/^[[:space:]]*//g' \
+                    | sed 's/[[:space:]]*$//g' \
+                    | while read -r replace; do
+                          [[ -n "$replace" ]] && \
+                          echo "${replace}|${current_package}" \
+                            >> "$tmpdir/providers.map"
+                      done
+              fi
+          done < repo/Packages
+
+          sort -u "$tmpdir/providers.map" -o "$tmpdir/providers.map"
+
+          # dependency一覧生成
+
           > repo/dependencies.txt
+
+          grep -E '^(Depends|Pre-Depends):' repo/Packages \
+            | sed 's/^Depends: //g' \
+            | sed 's/^Pre-Depends: //g' \
+            | tr ',' '\n' \
+            | sed 's/([^)]*)//g' \
+            | sed 's/|.*//g' \
+            | sed 's/^[[:space:]]*//g' \
+            | sed 's/[[:space:]]*$//g' \
+            | grep -v '^$' \
+            | sort -u \
+            | while read -r dep; do
+
+                  provider=$(awk -F'|' -v dep="$dep" '$1 == dep {print $2; exit}' "$tmpdir/providers.map")
+
+                  if [[ -n "$provider" && "$provider" != "$dep" ]]; then
+                      echo "$dep -> $provider" >> repo/dependencies.txt
+                  else
+                      echo "$dep" >> repo/dependencies.txt
+                  fi
+              done
+
+          rm -rf "$tmpdir"
 
       - name: Generate Missing Dependency List
         run: |
           tmpdir=$(mktemp -d)
 
-          #
-          # repo内で“満たせる名前”収集
-          #
-
+          # repo内で“満たせる名前”の収集
           grep -E '^(Package|Provides|Replaces):' repo/Packages \
             | sed 's/^Package: //g' \
             | sed 's/^Provides: //g' \
@@ -80,10 +138,7 @@ jobs:
             | sort -u \
             > "$tmpdir/provided.txt"
 
-          #
-          # 必要依存収集
-          #
-
+          # 必要依存の収集
           grep -E '^(Depends|Pre-Depends):' repo/Packages \
             | sed 's/^Depends: //g' \
             | sed 's/^Pre-Depends: //g' \
@@ -96,17 +151,14 @@ jobs:
             | sort -u \
             > "$tmpdir/required.txt"
 
-          #
-          # repo外依存抽出
-          #
-
+          # repo外依存の抽出
           comm -23 \
             "$tmpdir/required.txt" \
             "$tmpdir/provided.txt" \
             > repo/missing-dependencies.txt
 
           rm -rf "$tmpdir"
-          
+
       - name: Commit
         run: |
           git config user.name "${{ secrets.COMMITTER_USER_NAME }}"
@@ -115,3 +167,14 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "Update Packages"
           git push
+
+      - name: Trigger Deploy
+        uses: actions/github-script@v8
+        with:
+          script: |
+            github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'deploy-pages.yml',
+              ref: 'main'
+            })
