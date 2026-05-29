@@ -1,4 +1,3 @@
-Depends:firmware
 applist
 apt
 com.anthopak.powercuts

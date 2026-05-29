@@ -1,4 +1,3 @@
-Depends:firmware
 apt
 com.rpetrich.rocketbootstrap
 coreutils
