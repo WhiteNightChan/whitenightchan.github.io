@@ -4,7 +4,7 @@ apt
 com.anthopak.powercuts
 com.creaturecoding.libcspreferences
 com.creaturesurvive.libcscolorpicker
-com.ex.libsubstitute
+com.ex.libsubstitute -> ellekit
 com.mrgcgamer.libgcuniversal
 com.opa334.altlist
 com.opa334.ccsupport
@@ -28,13 +28,13 @@ jp.ashikase.techsupport
 libkrw0-dopamine
 libroot-dopamine
 lldb
-mobilesubstrate
+mobilesubstrate -> ellekit
 ncurses
 org.thebigboss.libcolorpicker
 preferenceloader
 system-cmds
 uikittools
 weeb.lillie.youtubedislikesreturn
-ws.hbang.alderis
+ws.hbang.alderis -> org.thebigboss.libcolorpicker
 ws.hbang.common
 zsh
