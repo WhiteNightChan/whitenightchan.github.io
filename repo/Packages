@@ -2790,6 +2790,27 @@ MD5sum: 4da5fb75174eb83cb82ad59f22f233f9
 SHA1: 89c034d5c187697b5d460d998a1b94e1749ab298
 SHA256: f20085da3ebd4af4b5415891c8991be674f8ba2357e799b6c7e2e26ffaf7f6d0
 
+Package: jp.ashikase.libpackageinfo
+Name: libpackageinfo
+Description: Library to retrieve package information.
+Architecture: iphoneos-arm
+Pre-Depends: firmware (>=3.0)
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libpackageinfoData
+Homepage: http://github.com/ashikase/libpackageinfo
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Development
+Tag: role::developer
+dev: ashikase
+Version: 1.1.0.1-1
+Installed-Size: 720
+Filename: ./debs/Dependencies/libpackageinfo/jp.ashikase.libpackageinfo_1.1.0.1-1_iphoneos-arm.deb
+Size: 243602
+MD5sum: f5bbe130452da2165bbe66da5229cba3
+SHA1: 45231452be4ad000625177617a76d62c7de0cc71
+SHA256: 4ad8e1e5995e13d94ed110d9af48dbeb7be51f674173678fabac07f7df4fb548
+
 Package: com.opa334.libundirect
 Name: libundirect
 Architecture: iphoneos-arm

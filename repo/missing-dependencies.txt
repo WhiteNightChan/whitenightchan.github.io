@@ -5,7 +5,6 @@ coreutils
 findutils
 firmware
 gettext-localizations
-jp.ashikase.libpackageinfo
 libkrw0-dopamine
 libroot-dopamine
 lldb
