@@ -110,23 +110,24 @@ jobs:
             | sort -u \
             | while read -r dep; do
 
-                  entry=$(awk -F'|' -v dep="$dep" '$1 == dep && $3 != "package" {print $2 "|" $3; exit}' "$tmpdir/providers.map")
+                  found=0
 
-                  if [[ -n "$entry" ]]; then
-                      provider="${entry%%|*}"
-                      type="${entry##*|}"
+                  while IFS='|' read -r provider type; do
+                      found=1
 
                       if [[ "$type" == "provides" ]]; then
                           echo "$dep provided by $provider" >> repo/dependencies.txt
                       elif [[ "$type" == "replaces" ]]; then
                           echo "$dep replaced by $provider" >> repo/dependencies.txt
                       fi
-                  else
+                  done < <(
+                      awk -F'|' -v dep="$dep" '$1 == dep && $3 != "package" {print $2 "|" $3}' "$tmpdir/providers.map"
+                  )
+
+                  if [[ "$found" == "0" ]]; then
                       echo "$dep" >> repo/dependencies.txt
                   fi
               done
-
-          rm -rf "$tmpdir"
 
       - name: Generate Missing Dependency List
         run: |
