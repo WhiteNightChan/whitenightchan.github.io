@@ -52,7 +52,7 @@ jobs:
           # dependency provider map生成
           #
           # 形式:
-          # oldpkg|newpkg
+          # target|provider|type
           #
 
           > "$tmpdir/providers.map"
@@ -63,7 +63,7 @@ jobs:
               if [[ "$line" =~ ^Package:\ (.*) ]]; then
                   current_package="${BASH_REMATCH[1]}"
 
-                  echo "${current_package}|${current_package}" \
+                  echo "${current_package}|${current_package}|package" \
                     >> "$tmpdir/providers.map"
 
               elif [[ "$line" =~ ^Provides:\ (.*) ]]; then
@@ -74,7 +74,7 @@ jobs:
                     | sed 's/[[:space:]]*$//g' \
                     | while read -r provide; do
                           [[ -n "$provide" ]] && \
-                          echo "${provide}|${current_package}" \
+                          echo "${provide}|${current_package}|provides" \
                             >> "$tmpdir/providers.map"
                       done
 
@@ -86,7 +86,7 @@ jobs:
                     | sed 's/[[:space:]]*$//g' \
                     | while read -r replace; do
                           [[ -n "$replace" ]] && \
-                          echo "${replace}|${current_package}" \
+                          echo "${replace}|${current_package}|replaces" \
                             >> "$tmpdir/providers.map"
                       done
               fi
@@ -110,10 +110,17 @@ jobs:
             | sort -u \
             | while read -r dep; do
 
-                  provider=$(awk -F'|' -v dep="$dep" '$1 == dep {print $2; exit}' "$tmpdir/providers.map")
+                  entry=$(awk -F'|' -v dep="$dep" '$1 == dep && $3 != "package" {print $2 "|" $3; exit}' "$tmpdir/providers.map")
 
-                  if [[ -n "$provider" && "$provider" != "$dep" ]]; then
-                      echo "$dep -> $provider" >> repo/dependencies.txt
+                  if [[ -n "$entry" ]]; then
+                      provider="${entry%%|*}"
+                      type="${entry##*|}"
+
+                      if [[ "$type" == "provides" ]]; then
+                          echo "$dep provided by $provider" >> repo/dependencies.txt
+                      elif [[ "$type" == "replaces" ]]; then
+                          echo "$dep replaced by $provider" >> repo/dependencies.txt
+                      fi
                   else
                       echo "$dep" >> repo/dependencies.txt
                   fi
