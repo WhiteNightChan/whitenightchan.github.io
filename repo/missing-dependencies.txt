@@ -9,6 +9,8 @@ firmware
 libkrw0-dopamine
 libroot-dopamine
 lldb
+org.thebigboss.libcolorpicker
 uikittools
 weeb.lillie.youtubedislikesreturn
+ws.hbang.alderis
 ws.hbang.common

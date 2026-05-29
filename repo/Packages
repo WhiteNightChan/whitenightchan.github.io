@@ -1554,63 +1554,6 @@ MD5sum: f0910991262882d4ffc0b60a5dcc191b
 SHA1: ce71d90d0165ee7325683d4465fb271fc98451c1
 SHA256: 568c98650d8b452d68a1f893ec87f02a4f7082848b1abeec80531c4c9d484065
 
-Package: org.thebigboss.libcolorpicker
-Name: libcolorpicker
-Depends: firmware (>= 6.0)
-Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
-Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
-Description: An awesome library of some sort!!
-Maintainer: Bailey Seymour
-Author: Bailey Seymour
-Section: System
-Tag: role::developer
-Architecture: iphoneos-arm
-Version: 1.6.9.2
-Installed-Size: 584
-Filename: ./debs/Dependencies/libcolorpicker/org.thebigboss.libcolorpicker_1.6.9.2_iphoneos-arm.deb
-Size: 134232
-MD5sum: 0e3155427bd57845ecbbce7d80d0edc8
-SHA1: 98b8e9292c771bd57a9124a85dcca1f8effb60a8
-SHA256: d868afb18f91289f0799ee99a2d306d5e0fd0310235278647cb03c72e3c5b105
-
-Package: org.thebigboss.libcolorpicker
-Name: libcolorpicker
-Depends: firmware (>= 6.0)
-Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
-Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
-Description: An awesome library of some sort!!
-Maintainer: Bailey Seymour
-Author: Bailey Seymour
-Section: System
-Tag: role::developer
-Architecture: iphoneos-arm64
-Version: 1.6.9.2
-Installed-Size: 304
-Filename: ./debs/Dependencies/libcolorpicker/org.thebigboss.libcolorpicker_1.6.9.2_iphoneos-arm64.deb
-Size: 45764
-MD5sum: ca820ee221df8feffcf17eeb25f93eca
-SHA1: 7af5d4897744c9d68be8c18b4ce0b421ccdcdc85
-SHA256: aefa324cb0580560d51f724ce2e8cfdfc705c7bcf5e75424eee6224aaa8a7265
-
-Package: org.thebigboss.libcolorpicker
-Name: libcolorpicker
-Depends: firmware (>= 6.0)
-Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
-Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
-Description: An awesome library of some sort!!
-Maintainer: Bailey Seymour
-Author: Bailey Seymour
-Section: System
-Tag: role::developer
-Architecture: iphoneos-arm64e
-Version: 1.6.9.2
-Installed-Size: 304
-Filename: ./debs/Dependencies/libcolorpicker/org.thebigboss.libcolorpicker_1.6.9.2_iphoneos-arm64e.deb
-Size: 44668
-MD5sum: 4da5fb75174eb83cb82ad59f22f233f9
-SHA1: 89c034d5c187697b5d460d998a1b94e1749ab298
-SHA256: f20085da3ebd4af4b5415891c8991be674f8ba2357e799b6c7e2e26ffaf7f6d0
-
 Package: com.opa334.libundirect
 Name: libundirect
 Architecture: iphoneos-arm
