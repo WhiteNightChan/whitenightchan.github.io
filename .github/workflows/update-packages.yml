@@ -179,3 +179,4 @@ jobs:
 
   deploy-pages:
     uses: ./.github/workflows/deploy-pages.yml
+    needs: update
