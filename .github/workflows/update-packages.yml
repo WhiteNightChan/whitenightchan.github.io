@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  update:
     name: Update Packages
     runs-on: ubuntu-latest
     permissions:
@@ -177,13 +177,5 @@ jobs:
           git commit -m "Update Packages"
           git push
 
-      - name: Trigger Deploy
-        uses: actions/github-script@v9
-        with:
-          script: |
-            github.rest.actions.createWorkflowDispatch({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              workflow_id: 'deploy-pages.yml',
-              ref: 'main'
-            })
+  deploy-pages:
+    uses: ./.github/workflows/deploy-pages.yml
