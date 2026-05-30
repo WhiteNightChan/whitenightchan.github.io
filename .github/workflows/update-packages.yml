@@ -148,6 +148,13 @@ jobs:
             | sort -u \
             > "$tmpdir/provided.txt"
 
+          # repo外でも問題ない依存の収集
+          if [[ -f repo/lists/implicit-dependencies.txt ]]; then
+              cat repo/lists/implicit-dependencies.txt >> "$tmpdir/provided.txt"
+          fi
+
+          sort -u "$tmpdir/provided.txt" -o "$tmpdir/provided.txt"
+
           # 必要依存の収集
           grep -E '^(Depends|Pre-Depends):' repo/Packages \
             | sed 's/^Depends:[[:space:]]*//g' \
