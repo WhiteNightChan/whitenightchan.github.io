@@ -1,3 +1,51 @@
+Package: lldb-14
+Section: Development
+Version: 14.0.0~5.7.2~RELEASE
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Depends: libiosexec1 (>= 1.2.2), liblldb-14 (= 14.0.0~5.7.2~RELEASE), debugserver-14 (= 14.0.0~5.7.2~RELEASE)
+Priority: optional
+Homepage: https://www.llvm.org/
+Description: Next generation, high-performance debugger
+Installed-Size: 113048
+Filename: ./debs/Bootstrap/llvm/lldb-14_14.0.0~5.7.2~RELEASE_iphoneos-arm64.deb
+Size: 32340774
+MD5sum: 3e042d51bd985da223de3369c032799c
+SHA1: 4fbf974200ebad91892441f39b71899a5863b088
+SHA256: b6e34fd248715c4af6197c6edf06eb7e78398f972d948aceffe2cc2150b1c04e
+
+Package: lldb-16
+Section: Development
+Version: 16.0.0~5.9.2~RELEASE-1
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Depends: libiosexec1 (>= 1.3.1), liblldb-16 (= 16.0.0~5.9.2~RELEASE-1), debugserver-16 (= 16.0.0~5.9.2~RELEASE-1)
+Priority: optional
+Homepage: https://www.llvm.org/
+Description: Next generation, high-performance debugger
+Installed-Size: 101972
+Filename: ./debs/Bootstrap/llvm/lldb-16_16.0.0~5.9.2~RELEASE-1_iphoneos-arm64.deb
+Size: 41406728
+MD5sum: 3998b14e3a64457ebb97b0a091a9179c
+SHA1: f6bf61c95bf383edea48dc0ed4412ef83ca3688e
+SHA256: fe071784a22e2932d56c0fbdcb07cc9c56d1c5c8f356239ab3092f4cad950250
+
+Package: lldb-16
+Section: Development
+Version: 16.0.0~5.9.2~RELEASE
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Depends: libiosexec1 (>= 1.3.1), liblldb-16 (= 16.0.0~5.9.2~RELEASE), debugserver-16 (= 16.0.0~5.9.2~RELEASE)
+Priority: optional
+Homepage: https://www.llvm.org/
+Description: Next generation, high-performance debugger
+Installed-Size: 101972
+Filename: ./debs/Bootstrap/llvm/lldb-16_16.0.0~5.9.2~RELEASE_iphoneos-arm64.deb
+Size: 41406718
+MD5sum: f5c6a566d793f6b006371dfbebfab90e
+SHA1: 284b3f80af3dc27d163a55fc3624c7e57ff7204f
+SHA256: 12a4a7cdf28ba56da1f117a5b1db2db05a5d7ecf99da4deffb507bd52385f1ed
+
 Package: lldb
 Section: Development
 Version: 14.0.0~5.7.2~RELEASE
@@ -8,7 +56,7 @@ Priority: optional
 Homepage: https://www.llvm.org/
 Description: Next generation, high-performance debugger
 Installed-Size: 0
-Filename: ./debs/Bootstrap/lldb/lldb_14.0.0~5.7.2~RELEASE_iphoneos-arm64.deb
+Filename: ./debs/Bootstrap/llvm/lldb_14.0.0~5.7.2~RELEASE_iphoneos-arm64.deb
 Size: 804
 MD5sum: 33a8de65820ba44f21f669c661050752
 SHA1: b8c3359ae742bee869e564ce1338307ed76ed7af
@@ -24,7 +72,7 @@ Priority: optional
 Homepage: https://www.llvm.org/
 Description: Next generation, high-performance debugger
 Installed-Size: 8
-Filename: ./debs/Bootstrap/lldb/lldb_16.0.0~5.9.2~RELEASE-1_iphoneos-arm64.deb
+Filename: ./debs/Bootstrap/llvm/lldb_16.0.0~5.9.2~RELEASE-1_iphoneos-arm64.deb
 Size: 6058
 MD5sum: 5c8ec893e5d38c5b18e616cafd548980
 SHA1: c2ed16c4b98ea59bb207b685c9802345b49874c9
@@ -40,7 +88,7 @@ Priority: optional
 Homepage: https://www.llvm.org/
 Description: Next generation, high-performance debugger
 Installed-Size: 8
-Filename: ./debs/Bootstrap/lldb/lldb_16.0.0~5.9.2~RELEASE_iphoneos-arm64.deb
+Filename: ./debs/Bootstrap/llvm/lldb_16.0.0~5.9.2~RELEASE_iphoneos-arm64.deb
 Size: 6064
 MD5sum: 2e7b71a8dc91c9562a8dce954ffd2b10
 SHA1: 2de30cfe38a73480a29409b259e26e631499abef

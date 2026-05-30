@@ -1,12 +1,15 @@
 apt
 com.rpetrich.rocketbootstrap
 coreutils
+debugserver-14
+debugserver-16
 findutils
 gettext-localizations
+libiosexec1
 libkrw0-dopamine
+liblldb-14
+liblldb-16
 libroot-dopamine
-lldb-14
-lldb-16
 ncurses
 system-cmds
 uikittools
