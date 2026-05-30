@@ -2081,6 +2081,153 @@ MD5sum: 11795810cc51f256e38426ea59ca8d2c
 SHA1: 52d0ef5c1c5ad4e1e25d2dce0049823e79ecdae5
 SHA256: a22e3a248ea18a6fae3ea0ae8f55f5f31f246cd63041cf3ed0c756c2046671dd
 
+Package: com.rpetrich.rocketbootstrap
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Name: RocketBootstrap
+Architecture: iphoneos-arm
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.0.10~beta1
+Installed-Size: 596
+Filename: ./debs/Dependencies/RocketBootstrap/com.rpetrich.rocketbootstrap_1.0.10~beta1_iphoneos-arm.deb
+Size: 38344
+MD5sum: b52417e29631c59cdb267379e71e2a69
+SHA1: 5839fce38b27e624ab5629d50fd543f30b473615
+SHA256: d06e18eefbfcb40f3e3b215bfbccaf34091fb30b2ccb1e4f6c519aa91d2b7248
+
+Package: com.rpetrich.rocketbootstrap
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Name: RocketBootstrap
+Architecture: iphoneos-arm
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.0.6~beta1
+Installed-Size: 504
+Filename: ./debs/Dependencies/RocketBootstrap/com.rpetrich.rocketbootstrap_1.0.6~beta1_iphoneos-arm.deb
+Size: 29472
+MD5sum: 604f41158a604fc3b1aa47731a4995b3
+SHA1: c5fb7d1e5479a0ee1fa1356fee448a6280f9f439
+SHA256: edacda8d619a918f9375621bb8718ad6d80862368be2b4e502cb12e613cb0ab6
+
+Package: com.rpetrich.rocketbootstrap
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Name: RocketBootstrap
+Architecture: iphoneos-arm
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.0.7~beta1
+Installed-Size: 548
+Filename: ./debs/Dependencies/RocketBootstrap/com.rpetrich.rocketbootstrap_1.0.7~beta1_iphoneos-arm.deb
+Size: 31284
+MD5sum: f4473ac577a05f861bf7a85ce734dbf0
+SHA1: 8c377c25486f44dd7a0f803b6e5b51ee11ec71f6
+SHA256: 4ebdf77bad704660a0c4f3568b36c089ca075615fcb7206d2d09ee1fa9ce091a
+
+Package: com.rpetrich.rocketbootstrap
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Name: RocketBootstrap
+Architecture: iphoneos-arm
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.0.7~beta2
+Installed-Size: 500
+Filename: ./debs/Dependencies/RocketBootstrap/com.rpetrich.rocketbootstrap_1.0.7~beta2_iphoneos-arm.deb
+Size: 31720
+MD5sum: 9cfa55734fdd98009da9b22dde9dd5d1
+SHA1: 4280338c3b99d6b4dc8e51404a361a85cc69fcd6
+SHA256: b68199f6bad944172b4a2d55307e4e84b49a1f162682bc9b7d6e486ead0b586f
+
+Package: com.rpetrich.rocketbootstrap
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Name: RocketBootstrap
+Architecture: iphoneos-arm
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.0.7~beta3
+Installed-Size: 596
+Filename: ./debs/Dependencies/RocketBootstrap/com.rpetrich.rocketbootstrap_1.0.7~beta3_iphoneos-arm.deb
+Size: 37990
+MD5sum: 7c693be81595deb417858ffc5ae8cd10
+SHA1: e0f1b4afbac67e3c8beb39df819997fd0cb54468
+SHA256: 4b7e9c8a0c6d5fc3179e0c5f7fb880239f8c5f30e481979b9d7e4829d58cfb73
+
+Package: com.rpetrich.rocketbootstrap
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Name: RocketBootstrap
+Architecture: iphoneos-arm
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.0.8~beta1
+Installed-Size: 596
+Filename: ./debs/Dependencies/RocketBootstrap/com.rpetrich.rocketbootstrap_1.0.8~beta1_iphoneos-arm.deb
+Size: 37108
+MD5sum: ebb6fb123e8a076fb53f93b247f29586
+SHA1: 9299ffb4dd1ac4686df8b9e851694f13e2925dec
+SHA256: d32777d4b7f027115ba6739dfa0ab9e933f87f8ef94c89c33ce8e8c9880e48f1
+
+Package: com.rpetrich.rocketbootstrap
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Name: RocketBootstrap
+Architecture: iphoneos-arm
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.0.9
+Installed-Size: 596
+Filename: ./debs/Dependencies/RocketBootstrap/com.rpetrich.rocketbootstrap_1.0.9_iphoneos-arm.deb
+Size: 37192
+MD5sum: 612e3c55752ee8cfc631e341c5618795
+SHA1: 6c2cb0c69f77b84090f76ebfa909bf64e40b11b9
+SHA256: 1f6aed403c557eec1ac93bdb2fc50fe5e9808f230783480ea488a2f42880642f
+
 Package: jp.ashikase.techsupport
 Name: TechSupport Framework
 Description: Framework to assist in providing feedback to developers.
@@ -2102,6 +2249,24 @@ Size: 114992
 MD5sum: 70794fdd2f450d3f1f42f91edb399ea8
 SHA1: a9d60d81d5ea3d9132cdcb20e50cb8620dd32ffb
 SHA256: f24f4c319d717e9a611a2c58eb79d0ff1a760c54eff286cc5abbf67bb51d6634
+
+Package: gettext-localizations
+Version: 2020.10.07
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Depends: libintl8 (>= 0.20.0)
+Conflicts: com.linusyang.localeutf8
+Replaces: com.linusyang.localeutf8
+Provides: com.linusyang.localeutf8 (= 99.9)
+Section: Localizations
+Priority: important
+Description: Locale files necessary for command line tool translation.
+Installed-Size: 1088
+Filename: ./debs/Dependencies/gettext-localizations/gettext-localizations_2020.10.07_iphoneos-arm64.deb
+Size: 206036
+MD5sum: bcdf3f9050015a2ea92e512873f8f778
+SHA1: b00df6de646b0634ad14b3f1da3b61aadab2a281
+SHA256: 8e36cdb5ed9690cc58f9ff6c590eeaa6e10144001217bc72170106bcd25e3bca
 
 Package: com.creaturesurvive.libcscolorpicker
 Name: libCSColorPicker

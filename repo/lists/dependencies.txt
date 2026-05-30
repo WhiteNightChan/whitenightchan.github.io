@@ -30,6 +30,7 @@ libclang-cpp14
 libclang-cpp16
 libedit0
 libffi8
+libintl8
 libiosexec1
 libkrw0-dopamine
 liblldb-14

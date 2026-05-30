@@ -1,10 +1,9 @@
 apt
-com.rpetrich.rocketbootstrap
 coreutils
 findutils
-gettext-localizations
 libedit0
 libffi8
+libintl8
 libiosexec1
 libkrw0-dopamine
 liblzma5
