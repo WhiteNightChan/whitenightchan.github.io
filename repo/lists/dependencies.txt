@@ -26,10 +26,17 @@ firmware
 gettext-localizations
 jp.ashikase.libpackageinfo
 jp.ashikase.techsupport
+libclang-cpp14
+libclang-cpp16
+libedit0
 libiosexec1
 libkrw0-dopamine
 liblldb-14
 liblldb-16
+libllvm14
+libllvm16
+liblzma5
+libncursesw6
 libroot-dopamine
 lldb
 lldb-14
