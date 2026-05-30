@@ -3,12 +3,10 @@ com.rpetrich.rocketbootstrap
 coreutils
 findutils
 gettext-localizations
-libclang-cpp14
-libclang-cpp16
 libedit0
+libffi8
+libiosexec1
 libkrw0-dopamine
-libllvm14
-libllvm16
 liblzma5
 libncursesw6
 libroot-dopamine

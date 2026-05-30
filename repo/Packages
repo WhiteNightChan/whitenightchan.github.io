@@ -2790,23 +2790,6 @@ MD5sum: 4da5fb75174eb83cb82ad59f22f233f9
 SHA1: 89c034d5c187697b5d460d998a1b94e1749ab298
 SHA256: f20085da3ebd4af4b5415891c8991be674f8ba2357e799b6c7e2e26ffaf7f6d0
 
-Package: libiosexec1
-Essential: yes
-Version: 1.3.1
-Architecture: iphoneos-arm64
-Maintainer: Procursus Team <support@procurs.us>
-Section: Libraries
-Priority: required
-Homepage: http://github.com/ProcursusTeam/libiosexec
-Description: shim for execve w/ shell script support
-Depends: libiosexec1 (>= 1.3.1)
-Installed-Size: 76
-Filename: ./debs/Dependencies/libiosexec/libiosexec1_1.3.1_iphoneos-arm64.deb
-Size: 9312
-MD5sum: fe55e63c546937714501a1e5c8637c69
-SHA1: cacd29bb374f96d0a220c2e311d89d1c3e9e19de
-SHA256: fa219a841c7852a293e62f1fce83fc975f272b4875e258575943d4b6d6df10d3
-
 Package: jp.ashikase.libpackageinfo
 Name: libpackageinfo
 Description: Library to retrieve package information.
@@ -3004,6 +2987,51 @@ MD5sum: b847b2e54f004860a446c446f6e0da58
 SHA1: bdf0ef292cdda98b0c7727ccccbe1d2fc7ffadc3
 SHA256: fa4aa8a7886efbab88646c30bd41a95255d405fb8b49c7de186454dd8a7ddca8
 
+Package: libclang-cpp14
+Version: 14.0.0~5.7.2~RELEASE
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Depends: libiosexec1 (>= 1.2.2), libllvm14 (= 14.0.0~5.7.2~RELEASE)
+Section: Development
+Priority: optional
+Description: Modular compiler and toolchain technologies, runtime library
+Installed-Size: 52540
+Filename: ./debs/Dependencies/llvm/libclang-cpp14_14.0.0~5.7.2~RELEASE_iphoneos-arm64.deb
+Size: 12363656
+MD5sum: fa104e5d6d3552be97e4a97dcf98acda
+SHA1: 58d1e794fbbae6f0abe0c740b3d26e7db7684335
+SHA256: d2296e068c909e59d27be26d30424ec1919bac2e577cc6bf87f64ea56f4fd36e
+
+Package: libclang-cpp16
+Version: 16.0.0~5.9.2~RELEASE-1
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Depends: libiosexec1 (>= 1.3.1), libllvm16 (= 16.0.0~5.9.2~RELEASE-1)
+Section: Development
+Priority: optional
+Description: Modular compiler and toolchain technologies, runtime library
+Installed-Size: 62100
+Filename: ./debs/Dependencies/llvm/libclang-cpp16_16.0.0~5.9.2~RELEASE-1_iphoneos-arm64.deb
+Size: 17460790
+MD5sum: 6ac489daa25710deee53bd9b60e8d46a
+SHA1: 0b171829758f786d61cea231b3ddad6a1fad45d4
+SHA256: 2c715648701def60e9794d392fc5a889a6f7dde46f6098575d9f660446bdb51a
+
+Package: libclang-cpp16
+Version: 16.0.0~5.9.2~RELEASE
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Depends: libiosexec1 (>= 1.3.1), libllvm16 (= 16.0.0~5.9.2~RELEASE)
+Section: Development
+Priority: optional
+Description: Modular compiler and toolchain technologies, runtime library
+Installed-Size: 62100
+Filename: ./debs/Dependencies/llvm/libclang-cpp16_16.0.0~5.9.2~RELEASE_iphoneos-arm64.deb
+Size: 17460790
+MD5sum: 679cb99d29a065b9c3a51ead77a19c29
+SHA1: e98d6709b17573cd943c5f909ff3ab40d40ba78b
+SHA256: f96245e246fbd6472c72f50b549d1cc6f220c1100846cc8da3998051b748c75f
+
 Package: liblldb-14
 Version: 14.0.0~5.7.2~RELEASE
 Architecture: iphoneos-arm64
@@ -3051,6 +3079,51 @@ Size: 58112396
 MD5sum: 8c8ce1444f1b167059cd5e082256cb0f
 SHA1: a6b97e616e0488e372f6a04d0653d904a4bb6f84
 SHA256: 91d9a028b144ec06359eb06a9488efa1a0b2966d1020bca10d8b44ce17153331
+
+Package: libllvm14
+Version: 14.0.0~5.7.2~RELEASE
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Depends: libiosexec1 (>= 1.2.2), libncursesw6 (>= 6.0), libedit0, libffi8
+Section: Development
+Priority: optional
+Description: Modular compiler and toolchain technologies, runtime library
+Installed-Size: 65716
+Filename: ./debs/Dependencies/llvm/libllvm14_14.0.0~5.7.2~RELEASE_iphoneos-arm64.deb
+Size: 18008854
+MD5sum: 722fb7094129109bc964dd05baea072c
+SHA1: d7c21c5e9c44251056f9ee2be4e9754a6f06c71f
+SHA256: e44e39379a20bd3d62536ca6a0a0edf6cf4cf0fca99a62b1056272234b2acbf4
+
+Package: libllvm16
+Version: 16.0.0~5.9.2~RELEASE-1
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Depends: libiosexec1 (>= 1.3.1), libncursesw6 (>= 6.0), libedit0, libffi8
+Section: Development
+Priority: optional
+Description: Modular compiler and toolchain technologies, runtime library
+Installed-Size: 110564
+Filename: ./debs/Dependencies/llvm/libllvm16_16.0.0~5.9.2~RELEASE-1_iphoneos-arm64.deb
+Size: 35323612
+MD5sum: 1d555972a1d5cb1a3e1a55fe575fb632
+SHA1: 42bce9bf8998e714499cd81416302d64da467187
+SHA256: 4b43765c93d5be997b662dc98936866045a5f63e54aac89ec505620e0e69ebd8
+
+Package: libllvm16
+Version: 16.0.0~5.9.2~RELEASE
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Depends: libiosexec1 (>= 1.3.1), libncursesw6 (>= 6.0), libedit0, libffi8
+Section: Development
+Priority: optional
+Description: Modular compiler and toolchain technologies, runtime library
+Installed-Size: 110564
+Filename: ./debs/Dependencies/llvm/libllvm16_16.0.0~5.9.2~RELEASE_iphoneos-arm64.deb
+Size: 35323608
+MD5sum: b67e79712af477bbedf5632677356b75
+SHA1: a0487f00040646bc2ae9070c687c5410216cb611
+SHA256: 45fd622a139a977a9f4d47c476fc7b8f2c8a419b13b4f3a1e4f664dab2e1eb5f
 
 Package: lldb-14
 Section: Development
