@@ -1,3 +1,51 @@
+Package: lldb
+Section: Development
+Version: 14.0.0~5.7.2~RELEASE
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Depends: lldb-14 (= 14.0.0~5.7.2~RELEASE)
+Priority: optional
+Homepage: https://www.llvm.org/
+Description: Next generation, high-performance debugger
+Installed-Size: 0
+Filename: ./debs/Bootstrap/lldb/lldb_14.0.0~5.7.2~RELEASE_iphoneos-arm64.deb
+Size: 804
+MD5sum: 33a8de65820ba44f21f669c661050752
+SHA1: b8c3359ae742bee869e564ce1338307ed76ed7af
+SHA256: f6283f1308d6fdaf96d676e18d3ae30ef2496d04c6fe1da02374fb1dda87dd55
+
+Package: lldb
+Section: Development
+Version: 16.0.0~5.9.2~RELEASE-1
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Depends: lldb-16 (= 16.0.0~5.9.2~RELEASE-1)
+Priority: optional
+Homepage: https://www.llvm.org/
+Description: Next generation, high-performance debugger
+Installed-Size: 8
+Filename: ./debs/Bootstrap/lldb/lldb_16.0.0~5.9.2~RELEASE-1_iphoneos-arm64.deb
+Size: 6058
+MD5sum: 5c8ec893e5d38c5b18e616cafd548980
+SHA1: c2ed16c4b98ea59bb207b685c9802345b49874c9
+SHA256: 768438e6d6fc48d6769b9e5a8dbba4343f8d728cf70d360015589265bc89fad4
+
+Package: lldb
+Section: Development
+Version: 16.0.0~5.9.2~RELEASE
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Depends: lldb-16 (= 16.0.0~5.9.2~RELEASE)
+Priority: optional
+Homepage: https://www.llvm.org/
+Description: Next generation, high-performance debugger
+Installed-Size: 8
+Filename: ./debs/Bootstrap/lldb/lldb_16.0.0~5.9.2~RELEASE_iphoneos-arm64.deb
+Size: 6064
+MD5sum: 2e7b71a8dc91c9562a8dce954ffd2b10
+SHA1: 2de30cfe38a73480a29409b259e26e631499abef
+SHA256: d248f024c193779d0bb6f703543abb8f6f9a62a9742249bc6d827792ffd2543d
+
 Package: Flex3beta
 Name: Flex 3 Beta Dopamine & Palera1n
 Depends:firmware (>= 9.0)

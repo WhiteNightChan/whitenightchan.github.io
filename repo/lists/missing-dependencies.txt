@@ -5,7 +5,8 @@ findutils
 gettext-localizations
 libkrw0-dopamine
 libroot-dopamine
-lldb
+lldb-14
+lldb-16
 ncurses
 system-cmds
 uikittools

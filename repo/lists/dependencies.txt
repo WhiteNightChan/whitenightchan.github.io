@@ -27,6 +27,8 @@ jp.ashikase.techsupport
 libkrw0-dopamine
 libroot-dopamine
 lldb
+lldb-14
+lldb-16
 mobilesubstrate provided by ellekit
 mobilesubstrate replaced by ellekit
 ncurses
