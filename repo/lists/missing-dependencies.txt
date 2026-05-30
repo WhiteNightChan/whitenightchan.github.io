@@ -2,7 +2,6 @@ apt
 com.rpetrich.rocketbootstrap
 coreutils
 findutils
-firmware
 gettext-localizations
 libkrw0-dopamine
 libroot-dopamine

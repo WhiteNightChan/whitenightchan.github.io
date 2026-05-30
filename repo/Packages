@@ -11676,6 +11676,22 @@ SHA1: f477763c7de6515e4780c523d8ed6f8406ccb4fe
 SHA256: 2bd2397dfc7f2488bbfdeec37ecde0739f799f89704f085c2423d319d53f8b2d
 
 Package: com.ps.yougroupsettings
+Name: YouGroupSettings
+Description: Allows tweak-made settings to be grouped and displayed in iOS YouTube app.
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Architecture: iphoneos-arm64
+Version: 1.0.11~b1
+Installed-Size: 88
+Filename: ./debs/YouTube/YouGroupSettings/com.ps.yougroupsettings_1.0.11b1_iphoneos-arm64.deb
+Size: 5224
+MD5sum: 1a2ce53b8f79711300ffcc5ce0841632
+SHA1: 584195599cc94ee5883450cb41f038065ed096d9
+SHA256: 2b39513e44398608e614114d3e3c353df98777d2ea9499f9fad25be9a3889c77
+
+Package: com.ps.yougroupsettings
 Version: 1.0.2
 Architecture: iphoneos-arm
 Section: Tweaks
