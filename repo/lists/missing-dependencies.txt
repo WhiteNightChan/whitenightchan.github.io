@@ -1,0 +1,22 @@
+apt <- me.lightmann.iamlazy
+apt | apt7 <- com.exile90.icleanerpro
+coreutils <- ws.hbang.newterm3
+findutils <- com.exile90.icleanerpro
+libedit0 <- liblldb-16
+libedit0 <- libllvm16
+libffi8 <- libllvm16
+libiosexec1 <- debugserver-16
+libiosexec1 <- libclang-cpp16
+libiosexec1 <- liblldb-16
+libiosexec1 <- libllvm16
+libiosexec1 <- lldb-16
+libkrw0-dopamine <- kr.xsf1re.vnodebypass
+liblzma5 <- liblldb-16
+libncursesw6 <- liblldb-16
+libncursesw6 <- libllvm16
+libroot-dopamine <- kr.xsf1re.vnodebypass
+ncurses <- ws.hbang.newterm3
+system-cmds <- ws.hbang.newterm3
+uikittools <- me.lightmann.iamlazy
+uikittools <- ws.hbang.alderis
+zsh | bash | fish <- ws.hbang.newterm3
