@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://ota.update.invalid</string>
+				<key>SupplementalMatchDomains</key>
+				<array>
+					<string>gdmf.apple.com</string>
+					<string>gg.apple.com</string>
+					<string>mesu.apple.com</string>
+					<string>updates-http.cdn-apple.com</string>
+					<string>updates.cdn-apple.com</string>
+					<string>xp.apple.com</string>
+					<string>gdmf-ados.apple.com</string>
+					<string>gsra.apple.com</string>
+					<string>wkms-public.apple.com</string>
+					<string>fcs-keys-pub-prod.cdn-apple.com</string>
+					<string>bpapi.apple.com</string>
+					<string>cssubmissions.apple.com</string>
+					<string>fba.apple.com</string>
+				</array>
+			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>OTA Update Blocker</string>
+			<key>PayloadIdentifier</key>
+			<string>com.whitenightchan.otablocker.dns</string>
+			<key>PayloadOrganization</key>
+			<string>WhiteNightChan</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>22b59898-d347-476c-8e09-f67b1ab8d629</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Block OTA Updates</string>
+	<key>PayloadDisplayName</key>
+	<string>OTA Update Blocker</string>
+	<key>PayloadIdentifier</key>
+	<string>com.whitenightchan.otablocker</string>
+	<key>PayloadOrganization</key>
+	<string>WhiteNightChan</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>243b0c33-94b3-41fa-8ef8-deb455de62e5</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

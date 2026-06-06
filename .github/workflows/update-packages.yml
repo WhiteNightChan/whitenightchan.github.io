@@ -1,0 +1,245 @@
+name: Update Packages
+
+on:
+  workflow_dispatch:
+    inputs:
+      include_bootstrap:
+        description: "Include Bootstrap Packages"
+        type: boolean
+        required: true
+        default: false
+
+      include_dependencies:
+        description: "Include Dependencies Packages"
+        type: boolean
+        required: true
+        default: true
+
+jobs:
+  update:
+    name: Update Packages
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Generate Packages
+        run: |
+          > repo/Packages
+
+          find repo/debs -type f -name "*.deb" \
+            | while read -r deb; do
+
+                  if [[ "${{ inputs.include_bootstrap }}" != "true" ]]; then
+                      [[ "$deb" == */Bootstrap/* ]] && continue
+                  fi
+
+                  if [[ "${{ inputs.include_dependencies }}" != "true" ]]; then
+                      [[ "$deb" == */Dependencies/* ]] && continue
+                  fi
+
+                  echo "$deb"
+              done \
+            | sort \
+            | while read -r deb; do
+
+                  control=$(dpkg-deb -f "$deb")
+
+                  if [[ "$deb" == *"_repacked_with_IAmLazy_"* ]]; then
+                      description=$(echo "$control" | awk -F": " '/^Description:/ {print $2; exit}')
+
+                      control=$(echo "$control" | sed '/^Description:/d')
+
+                      echo "$control" >> repo/Packages
+                      echo "Description: $description (Repacked with IAmLazy)" >> repo/Packages
+                  else
+                      echo "$control" >> repo/Packages
+                  fi
+
+                  echo "Filename: ./${deb#repo/}" >> repo/Packages
+                  echo "Size: $(stat -c%s "$deb")" >> repo/Packages
+                  echo "MD5sum: $(md5sum "$deb" | awk '{print $1}')" >> repo/Packages
+                  echo "SHA1: $(sha1sum "$deb" | awk '{print $1}')" >> repo/Packages
+                  echo "SHA256: $(sha256sum "$deb" | awk '{print $1}')" >> repo/Packages
+                  echo >> repo/Packages
+              done
+
+          gzip -fk repo/Packages
+          bzip2 -fk repo/Packages
+
+      - name: Generate Dependency List
+        run: |
+          tmpdir=$(mktemp -d)
+          mkdir -p repo/lists
+
+          #
+          # dependency provider map生成
+          #
+          # 形式:
+          # target|provider|type
+          #
+
+          > "$tmpdir/providers.map"
+
+          current_package=""
+
+          while IFS= read -r line; do
+              if [[ "$line" =~ ^Package:\ (.*) ]]; then
+                  current_package="${BASH_REMATCH[1]}"
+
+                  echo "${current_package}|${current_package}|package" \
+                    >> "$tmpdir/providers.map"
+
+              elif [[ "$line" =~ ^Provides:\ (.*) ]]; then
+                  echo "${BASH_REMATCH[1]}" \
+                    | tr ',' '\n' \
+                    | sed 's/([^)]*)//g' \
+                    | sed 's/^[[:space:]]*//g' \
+                    | sed 's/[[:space:]]*$//g' \
+                    | while read -r provide; do
+                          [[ -n "$provide" ]] && \
+                          echo "${provide}|${current_package}|provides" \
+                            >> "$tmpdir/providers.map"
+                      done
+
+              elif [[ "$line" =~ ^Replaces:\ (.*) ]]; then
+                  echo "${BASH_REMATCH[1]}" \
+                    | tr ',' '\n' \
+                    | sed 's/([^)]*)//g' \
+                    | sed 's/^[[:space:]]*//g' \
+                    | sed 's/[[:space:]]*$//g' \
+                    | while read -r replace; do
+                          [[ -n "$replace" ]] && \
+                          echo "${replace}|${current_package}|replaces" \
+                            >> "$tmpdir/providers.map"
+                      done
+              fi
+          done < repo/Packages
+
+          sort -u "$tmpdir/providers.map" -o "$tmpdir/providers.map"
+
+          # dependency一覧生成
+
+          > repo/lists/dependencies.txt
+
+          grep -E '^(Depends|Pre-Depends):' repo/Packages \
+            | sed 's/^Depends:[[:space:]]*//g' \
+            | sed 's/^Pre-Depends:[[:space:]]*//g' \
+            | tr ',' '\n' \
+            | sed 's/([^)]*)//g' \
+            | sed 's/|.*//g' \
+            | sed 's/^[[:space:]]*//g' \
+            | sed 's/[[:space:]]*$//g' \
+            | grep -v '^$' \
+            | sort -u \
+            | while read -r dep; do
+
+                  found=0
+
+                  while IFS='|' read -r provider type; do
+                      found=1
+
+                      if [[ "$type" == "provides" ]]; then
+                          echo "$dep provided by $provider" >> repo/lists/dependencies.txt
+                      elif [[ "$type" == "replaces" ]]; then
+                          echo "$dep replaced by $provider" >> repo/lists/dependencies.txt
+                      fi
+                  done < <(
+                      awk -F'|' -v dep="$dep" '$1 == dep && $3 != "package" {print $2 "|" $3}' "$tmpdir/providers.map"
+                  )
+
+                  if [[ "$found" == "0" ]]; then
+                      echo "$dep" >> repo/lists/dependencies.txt
+                  fi
+              done
+
+      - name: Generate Missing Dependency List
+        run: |
+          tmpdir=$(mktemp -d)
+
+          # repo内で満たせる名前の収集
+
+          grep -E '^(Package|Provides|Replaces):' repo/Packages \
+            | sed 's/^Package: //g' \
+            | sed 's/^Provides: //g' \
+            | sed 's/^Replaces: //g' \
+            | tr ',' '\n' \
+            | sed 's/([^)]*)//g' \
+            | sed 's/^[[:space:]]*//g' \
+            | sed 's/[[:space:]]*$//g' \
+            | grep -v '^$' \
+            | sort -u \
+            > "$tmpdir/provided.txt"
+
+          # repo外でも問題ない依存
+
+          if [[ -f repo/lists/implicit-dependencies.txt ]]; then
+              cat repo/lists/implicit-dependencies.txt >> "$tmpdir/provided.txt"
+          fi
+
+          sort -u "$tmpdir/provided.txt" -o "$tmpdir/provided.txt"
+
+          # missing生成
+
+          > repo/lists/missing-dependencies.txt
+
+          current_package=""
+
+          while IFS= read -r line; do
+
+              if [[ "$line" =~ ^Package:\ (.*) ]]; then
+                  current_package="${BASH_REMATCH[1]}"
+
+              elif [[ "$line" =~ ^(Depends|Pre-Depends):\ (.*) ]]; then
+
+                  echo "${BASH_REMATCH[2]}" \
+                    | tr ',' '\n' \
+                    | sed 's/([^)]*)//g' \
+                    | sed 's/^[[:space:]]*//g' \
+                    | sed 's/[[:space:]]*$//g' \
+                    | grep -v '^$' \
+                    | while read -r depgroup; do
+
+                          rm -f "$tmpdir/result"
+
+                          echo "$depgroup" \
+                            | tr '|' '\n' \
+                            | sed 's/^[[:space:]]*//g' \
+                            | sed 's/[[:space:]]*$//g' \
+                            | while read -r candidate; do
+
+                                  if grep -Fxq "$candidate" "$tmpdir/provided.txt"; then
+                                      echo "FOUND" > "$tmpdir/result"
+                                      break
+                                  fi
+                              done
+
+                          if [[ -f "$tmpdir/result" ]]; then
+                              rm -f "$tmpdir/result"
+                              continue
+                          fi
+
+                          echo "$depgroup <- $current_package" \
+                            >> repo/lists/missing-dependencies.txt
+                      done
+              fi
+
+          done < repo/Packages
+
+          sort -u repo/lists/missing-dependencies.txt \
+            -o repo/lists/missing-dependencies.txt
+
+          rm -rf "$tmpdir"
+
+      - name: Commit
+        run: |
+          git config user.name "${{ secrets.COMMITTER_USER_NAME }}"
+          git config user.email "${{ secrets.COMMITTER_USER_EMAIL }}"
+          git add repo/Packages repo/Packages.gz repo/Packages.bz2 repo/lists/dependencies.txt repo/lists/missing-dependencies.txt
+          git diff --cached --quiet && exit 0
+          git commit -m "Update Packages"
+          git push
